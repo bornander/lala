@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="8" tilewidth="70" tileheight="70" nextobjectid="12">
+ <properties>
+  <property name="button_highlight" value="PLAY"/>
+  <property name="message" value="[WHITE]PRESS [BLUE]PLAY[WHITE] TO MAKE THE [GREEN]ALIEN[WHITE] GO TO THE [YELLOW]SPACESHIP[WHITE]."/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="4" margin="2" tilecount="104">
+  <image source="../../graphics/tiles.png" width="962" height="592"/>
+ </tileset>
+ <imagelayer name="background_b" x="1024" y="-300">
+  <image source="../../graphics/backgrounds/blue_shroom.png"/>
+ </imagelayer>
+ <imagelayer name="background_a" y="-300">
+  <image source="../../graphics/backgrounds/blue_shroom.png"/>
+ </imagelayer>
+ <layer name="tiles_background" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4CBwQ6Nbz0grhgFpAIA0AgAeg==
+  </data>
+ </layer>
+ <layer name="tiles_terrain" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowA34AZiXijmp4H5PEjmI2M2NExtgG4+LjzY7QUACJMBEg==
+  </data>
+ </layer>
+ <layer name="tiles_foreground" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwFEI7F1BswVo2CwAQAcZwCI
+  </data>
+ </layer>
+ <objectgroup name="terrain">
+  <object id="10" type="STONE" x="700" y="350">
+   <polygon points="0,0 420,0 420,210 0,210"/>
+  </object>
+  <object id="11" type="STONE" x="1120" y="280">
+   <polygon points="0,0 280,0 280,280 0,280"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="entities">
+  <object id="4" name="start" type="start" x="770" y="280" width="70" height="70"/>
+  <object id="5" name="target" type="target" x="1260" y="210" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="background_effects"/>
+ <objectgroup name="foreground_effects"/>
+ <objectgroup name="npc"/>
+</map>

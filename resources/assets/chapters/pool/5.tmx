@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="8" tilewidth="70" tileheight="70" nextobjectid="36">
+ <properties>
+  <property name="button_highlight" value="MIRROR"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="4" margin="2" tilecount="117">
+  <image source="../../graphics/tiles.png" width="962" height="666"/>
+ </tileset>
+ <imagelayer name="background_b" x="1024" y="-300">
+  <image source="../../graphics/backgrounds/colored_shroom.png"/>
+ </imagelayer>
+ <imagelayer name="background_a" y="-300">
+  <image source="../../graphics/backgrounds/colored_shroom.png"/>
+ </imagelayer>
+ <layer name="tiles_background" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4CBoQiHuC1dXUEesB9oBwwgAABo4wDv
+  </data>
+ </layer>
+ <layer name="tiles_terrain" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiZIBKIYwbA3iAoHur2Eht+uOwF6Y8igEHmh6CJEfIHujp0M4OIxKE4xNHNQ/cnvTAMAAAdGhsl
+  </data>
+ </layer>
+ <layer name="tiles_foreground" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYEAfFo2BggBYanwuJLYUmZ0+BuciAWvENM8eOSuYNRQAAn3ACbg==
+  </data>
+ </layer>
+ <objectgroup name="terrain">
+  <object id="28" type="SNOW" x="560" y="560">
+   <polygon points="0,0 0,-210 700,-210 700,0"/>
+  </object>
+  <object id="29" type="SNOW" x="1260" y="420">
+   <polygon points="0,0 70,-70 420,-70 420,140 0,140"/>
+  </object>
+  <object id="30" type="SNOW" x="1540" y="280">
+   <polygon points="0,0 140,0 140,70 0,70"/>
+  </object>
+  <object id="33" type="SNOW" x="0" y="420">
+   <polygon points="0,0 560,0 560,140 0,140"/>
+  </object>
+  <object id="34" type="SNOW" x="140" y="140">
+   <polygon points="0,0 140,0 140,280 0,280"/>
+  </object>
+  <object id="35" type="SNOW" x="1680" y="420">
+   <polygon points="0,0 280,0 280,140 0,140"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="entities">
+  <object id="4" name="start" type="start" x="980" y="280" width="70" height="70"/>
+  <object id="5" name="target" type="target" x="1575" y="210" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="background_effects">
+  <object id="16" type="effect_snow" x="420" y="0" width="1540" height="140"/>
+ </objectgroup>
+ <objectgroup name="foreground_effects"/>
+ <objectgroup name="npc"/>
+</map>

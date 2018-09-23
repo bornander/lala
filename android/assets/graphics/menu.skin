@@ -1,0 +1,59 @@
+{
+    com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+        alien_beige: {
+            down: alienBeige_round,
+            up: alienBeige_square,
+            disabled: alienBeige_square_disabled
+        },
+        alien_blue: {
+            down: alienBlue_round,
+            up: alienBlue_square,
+            disabled: alienBlue_square_disabled
+        },
+        alien_green: {
+            down: alienGreen_round,
+            up: alienGreen_square,
+            disabled: alienGreen_square_disabled
+        },
+        alien_pink: {
+            down: alienPink_round,
+            up: alienPink_square,
+            disabled: alienPink_square_disabled
+        },
+        alien_yellow: {
+            down: alienYellow_round,
+            up: alienYellow_square,
+            disabled: alienYellow_square_disabled
+        },
+        type_dirt: {
+        	up: dirt,
+        	down: dirt_down,
+        	disabled: dirt_disabled
+        },
+        type_grass: {
+        	up: grass,
+        	down: grass_down,
+        	disabled: grass_disabled
+        },
+        type_planet: {
+        	up: planet,
+        	down: planet_down,
+        	disabled: planet_disabled
+        },
+        type_sand: {
+        	up: sand,
+        	down: sand_down,
+        	disabled: sand_disabled
+        },
+        type_snow: {
+        	up: snow,
+        	down: snow_down,
+        	disabled: snow_disabled
+        },
+        type_stone: {
+        	up: stone,
+        	down: stone_down,
+        	disabled: stone_disabled
+        },
+    }
+}

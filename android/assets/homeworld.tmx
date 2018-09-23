@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="272" height="8" tilewidth="70" tileheight="70" nextobjectid="79">
+ <properties>
+  <property name="button_highlight" value="PLAY"/>
+  <property name="message" value="[WHITE]PRESS [BLUE]PLAY[WHITE] TO MAKE THE [GREEN]ALIEN[WHITE] GO TO THE [YELLOW]SPACESHIP[WHITE]."/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="4" margin="2" tilecount="117">
+  <image source="graphics/tiles.png" width="962" height="666"/>
+  <terraintypes>
+   <terrain name="Planet" tile="-1"/>
+  </terraintypes>
+  <tile id="114">
+   <animation>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="115" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <imagelayer name="background_b" x="1050" y="-280" visible="0">
+  <image source="graphics/backgrounds/colored_land.png"/>
+ </imagelayer>
+ <imagelayer name="background_a" y="-300" visible="0">
+  <image source="graphics/backgrounds/colored_grass.png"/>
+ </imagelayer>
+ <layer name="tiles_background" width="272" height="8">
+  <data encoding="base64" compression="zlib">
+   eJzt1G0KgCAQRVFblq1m9uD+oT8FIgp+xWPwHhBBGnrjRCEAAAAAwL+iOsAmpg4AwC1TBwDglqkDAJlbHUDk6zsWey42zpVMHcCJK1snObHnGar/XnqXdz19zPRa1qTKvnJ/vfUp+JvVjryjc63NajTLyrOt2pX5lbUj397O99bOH6VMGjo=
+  </data>
+ </layer>
+ <layer name="tiles_terrain" width="272" height="8">
+  <data encoding="base64" compression="zlib">
+   eJztWIuKAjEMjB8knuKxcv//YeeigSEk2aTtWpUMFHW3m6adyWMlKhQKhcKrcZvtwM74m+1AofDFOM52YCec7uNXjPNUjwqF10Hqfy/tf2P+WM/uhx57w3Ghz8wj1/tYZjvxZuD42JNLjMGt89fq1SzOVr1I/V+EP+ucbG7RdCjzB9r9tFhjDrXcIc+ydV+aTkb2Ofg+ye9e7DeDOWpZJ6MbnJuJhWhst747Y33o4TK6Bg/rHKx61VqbezXmaV+bw3V1yzbauME1b+0sP9k8nD0r6/8Mj0Mrh2TjPbpGT5/DfGCut7iX3GjxKOuBVpMOzyHrixcLVk+Uie2t+Dopa2gcjMwhkRq0JOZme5IRGsvmj2hsoA35ueIasOflKa1vkmeOcyO9grf+ArYyuSNiP7M3z67VM1qaQl607/hb+s569XJARFPWs6Tck3ux+uYDDKt2ITCOEBYHGoeW5qwYznAc1W4kp3jnF9VulPPIHGlfPkPKZ8amFR9Rnbas5XExylbP3no5wzkkrrdw3zPXepace1nuSVyXuRXjaOS62vV/bod7/A==
+  </data>
+ </layer>
+ <layer name="tiles_foreground" width="272" height="8">
+  <data encoding="base64" compression="zlib">
+   eJzt1NEJgDAMBcCu5RDq/tvopyCIhbRNyx3kO8kraSkAAETZRg8A/FJ7q/tdx6PO8Ili1e434981euZe/Vfrw1vv7Fd46547ZM6rxWyZ980kOie5tzFTru7520q7AAC0dgEU1gX7
+  </data>
+ </layer>
+ <objectgroup name="terrain"/>
+ <objectgroup name="entities">
+  <object id="18" name="blue.0" type="alien_target" x="490" y="210" width="70" height="70"/>
+  <object id="20" name="blue.0" type="ship_dropoff" x="490" y="140" width="70" height="70"/>
+  <object id="27" name="blue.1" type="alien_target" x="1820" y="350" width="70" height="70"/>
+  <object id="28" name="blue.1" type="ship_dropoff" x="1820" y="280" width="70" height="70"/>
+  <object id="29" name="blue.2" type="alien_target" x="2940" y="280" width="70" height="70"/>
+  <object id="30" name="blue.2" type="ship_dropoff" x="2940" y="210" width="70" height="70"/>
+  <object id="32" name="blue.3" type="alien_target" x="2590" y="280" width="70" height="70"/>
+  <object id="33" name="blue.3" type="ship_dropoff" x="2590" y="210" width="70" height="70"/>
+  <object id="34" name="blue.4" type="alien_target" x="4340" y="210" width="70" height="70"/>
+  <object id="35" name="blue.4" type="ship_dropoff" x="4340" y="140" width="70" height="70"/>
+  <object id="36" name="blue.5" type="alien_target" x="5950" y="210" width="70" height="70"/>
+  <object id="37" name="blue.5" type="ship_dropoff" x="5950" y="140" width="70" height="70"/>
+  <object id="38" name="blue.6" type="alien_target" x="7140" y="280" width="70" height="70"/>
+  <object id="39" name="blue.6" type="ship_dropoff" x="7140" y="210" width="70" height="70"/>
+  <object id="40" name="blue.7" type="alien_target" x="7700" y="350" width="70" height="70"/>
+  <object id="41" name="blue.7" type="ship_dropoff" x="7700" y="280" width="70" height="70"/>
+  <object id="42" name="blue.8" type="ship_dropoff" x="7910" y="210" width="70" height="70"/>
+  <object id="43" name="blue.8" type="alien_target" x="7910" y="280" width="70" height="70"/>
+  <object id="44" name="blue.9" type="ship_dropoff" x="8890" y="140" width="70" height="70"/>
+  <object id="45" name="blue.9" type="alien_target" x="8890" y="420" width="70" height="70"/>
+  <object id="46" name="blue.10" type="ship_dropoff" x="9730" y="70" width="70" height="70"/>
+  <object id="47" name="blue.10" type="alien_target" x="9730" y="140" width="70" height="70"/>
+  <object id="48" name="blue.11" type="ship_dropoff" x="10710" y="140" width="70" height="70"/>
+  <object id="49" name="blue.11" type="alien_target" x="10710" y="350" width="70" height="70"/>
+  <object id="50" name="beige.0" type="alien_target" x="18130" y="350" width="70" height="70"/>
+  <object id="51" name="beige.0" type="ship_dropoff" x="18130" y="210" width="70" height="70"/>
+  <object id="52" name="beige.1" type="alien_target" x="11760" y="350" width="70" height="70"/>
+  <object id="53" name="beige.1" type="ship_dropoff" x="11760" y="140" width="70" height="70"/>
+  <object id="54" name="beige.2" type="alien_target" x="10290" y="350" width="70" height="70"/>
+  <object id="55" name="beige.2" type="ship_dropoff" x="10290" y="210" width="70" height="70"/>
+  <object id="56" name="beige.3" type="alien_target" x="12880" y="140" width="70" height="70"/>
+  <object id="57" name="beige.3" type="ship_dropoff" x="12880" y="70" width="70" height="70"/>
+  <object id="58" name="beige.4" type="alien_target" x="17080" y="420" width="70" height="70"/>
+  <object id="59" name="beige.4" type="ship_dropoff" x="17080" y="280" width="70" height="70"/>
+  <object id="60" name="beige.5" type="alien_target" x="15470" y="280" width="70" height="70"/>
+  <object id="61" name="beige.5" type="ship_dropoff" x="15470" y="210" width="70" height="70"/>
+  <object id="62" name="beige.6" type="alien_target" x="14000" y="280" width="70" height="70"/>
+  <object id="63" name="beige.6" type="ship_dropoff" x="14000" y="210" width="70" height="70"/>
+  <object id="64" name="beige.7" type="alien_target" x="12250" y="350" width="70" height="70"/>
+  <object id="65" name="beige.7" type="ship_dropoff" x="12250" y="280" width="70" height="70"/>
+  <object id="66" name="beige.8" type="alien_target" x="1400" y="210" width="70" height="70"/>
+  <object id="67" name="beige.8" type="ship_dropoff" x="1400" y="70" width="70" height="70"/>
+  <object id="68" name="beige.9" type="alien_target" x="8330" y="280" width="70" height="70"/>
+  <object id="69" name="beige.9" type="ship_dropoff" x="8330" y="140" width="70" height="70"/>
+  <object id="70" name="beige.10" type="alien_target" x="3640" y="210" width="70" height="70"/>
+  <object id="71" name="beige.10" type="ship_dropoff" x="3640" y="70" width="70" height="70"/>
+  <object id="72" name="beige.11" type="alien_target" x="4830" y="350" width="70" height="70"/>
+  <object id="73" name="beige.11" type="ship_dropoff" x="4830" y="210" width="70" height="70"/>
+  <object id="74" name="green.0" type="alien_target" x="2310" y="140" width="70" height="70"/>
+  <object id="75" name="green.0" type="ship_dropoff" x="2310" y="70" width="70" height="70"/>
+  <object id="76" name="green.1" type="alien_target" x="3220" y="350" width="70" height="70"/>
+  <object id="77" name="green.1" type="ship_dropoff" x="3220" y="280" width="70" height="70"/>
+  <object id="78" name="green.2" type="alien_target" x="6300" y="350" width="70" height="70"/>
+  <object id="79" name="green.2" type="ship_dropoff" x="6300" y="280" width="70" height="70"/>
+  <object id="86" name="green.6" type="alien_target" x="10500" y="420" width="70" height="70"/>
+  <object id="87" name="green.6" type="ship_dropoff" x="10500" y="350" width="70" height="70"/>
+  <object id="88" name="green.7" type="alien_target" x="14280" y="210" width="70" height="70"/>
+  <object id="89" name="green.7" type="ship_dropoff" x="14280" y="140" width="70" height="70"/>
+  <object id="90" name="green.8" type="alien_target" x="17290" y="280" width="70" height="70"/>
+  <object id="91" name="green.8" type="ship_dropoff" x="17290" y="140" width="70" height="70"/>
+  <object id="92" name="green.9" type="alien_target" x="15050" y="210" width="70" height="70"/>
+  <object id="93" name="green.9" type="ship_dropoff" x="15050" y="140" width="70" height="70"/>
+  <object id="94" name="green.10" type="alien_target" x="18690" y="350" width="70" height="70"/>
+  <object id="95" name="green.10" type="ship_dropoff" x="18690" y="70" width="70" height="70"/>
+  <object id="96" name="green.11" type="alien_target" x="1050" y="350" width="70" height="70"/>
+  <object id="97" name="green.11" type="ship_dropoff" x="1050" y="210" width="70" height="70"/>
+  <object id="50" name="green.3" type="ship_dropoff" x="8120" y="70" width="70" height="70"/>
+  <object id="51" name="green.3" type="alien_target" x="8120" y="280" width="70" height="70"/>
+  <object id="52" name="green.4" type="ship_dropoff" x="11270" y="70" width="70" height="70"/>
+  <object id="53" name="green.4" type="alien_target" x="11270" y="210" width="70" height="70"/>
+  <object id="54" name="green.5" type="ship_dropoff" x="14700" y="210" width="70" height="70"/>
+  <object id="55" name="green.5" type="alien_target" x="14700" y="280" width="70" height="70"/>
+  <object id="101" name="pink.0" type="alien_target" x="630" y="210" width="70" height="70"/>
+  <object id="102" name="pink.0" type="ship_dropoff" x="630" y="140" width="70" height="70"/>
+  <object id="103" name="pink.1" type="alien_target" x="2030" y="420" width="70" height="70"/>
+  <object id="104" name="pink.1" type="ship_dropoff" x="2030" y="140" width="70" height="70"/>
+  <object id="105" name="pink.2" type="alien_target" x="3360" y="420" width="70" height="70"/>
+  <object id="106" name="pink.2" type="ship_dropoff" x="3360" y="350" width="70" height="70"/>
+  <object id="107" name="pink.3" type="alien_target" x="5390" y="280" width="70" height="70"/>
+  <object id="108" name="pink.3" type="ship_dropoff" x="5390" y="70" width="70" height="70"/>
+  <object id="109" name="pink.4" type="alien_target" x="6510" y="350" width="70" height="70"/>
+  <object id="110" name="pink.4" type="ship_dropoff" x="6510" y="280" width="70" height="70"/>
+  <object id="111" name="pink.5" type="alien_target" x="7420" y="350" width="70" height="70"/>
+  <object id="112" name="pink.5" type="ship_dropoff" x="7420" y="280" width="70" height="70"/>
+  <object id="103" name="pink.6" type="alien_target" x="8680" y="350" width="70" height="70"/>
+  <object id="114" name="pink.6" type="ship_dropoff" x="8680" y="210" width="70" height="70"/>
+  <object id="115" name="pink.7" type="alien_target" x="10150" y="350" width="70" height="70"/>
+  <object id="116" name="pink.7" type="ship_dropoff" x="10150" y="280" width="70" height="70"/>
+  <object id="117" name="pink.8" type="alien_target" x="12040" y="350" width="70" height="70"/>
+  <object id="118" name="pink.8" type="ship_dropoff" x="12040" y="280" width="70" height="70"/>
+  <object id="119" name="pink.9" type="alien_target" x="13580" y="280" width="70" height="70"/>
+  <object id="120" name="pink.9" type="ship_dropoff" x="13580" y="70" width="70" height="70"/>
+  <object id="121" name="pink.10" type="alien_target" x="16030" y="210" width="70" height="70"/>
+  <object id="122" name="pink.10" type="ship_dropoff" x="16030" y="70" width="70" height="70"/>
+  <object id="201" name="yellow.0" type="alien_target" x="2800" y="280" width="70" height="70"/>
+  <object id="202" name="yellow.0" type="ship_dropoff" x="2800" y="140" width="70" height="70"/>
+  <object id="203" name="yellow.1" type="alien_target" x="4060" y="210" width="70" height="70"/>
+  <object id="204" name="yellow.1" type="ship_dropoff" x="4060" y="70" width="70" height="70"/>
+  <object id="205" name="yellow.2" type="alien_target" x="7560" y="350" width="70" height="70"/>
+  <object id="206" name="yellow.2" type="ship_dropoff" x="7560" y="280" width="70" height="70"/>
+  <object id="207" name="yellow.3" type="alien_target" x="10990" y="210" width="70" height="70"/>
+  <object id="208" name="yellow.3" type="ship_dropoff" x="10990" y="140" width="70" height="70"/>
+  <object id="209" name="yellow.4" type="alien_target" x="11830" y="350" width="70" height="70"/>
+  <object id="210" name="yellow.4" type="ship_dropoff" x="11830" y="280" width="70" height="70"/>
+  <object id="211" name="yellow.5" type="alien_target" x="13440" y="350" width="70" height="70"/>
+  <object id="212" name="yellow.5" type="ship_dropoff" x="13440" y="280" width="70" height="70"/>
+  <object id="213" name="yellow.6" type="alien_target" x="14560" y="280" width="70" height="70"/>
+  <object id="214" name="yellow.6" type="ship_dropoff" x="14560" y="210" width="70" height="70"/>
+  <object id="215" name="yellow.7" type="alien_target" x="15680" y="350" width="70" height="70"/>
+  <object id="216" name="yellow.7" type="ship_dropoff" x="15680" y="210" width="70" height="70"/>
+  <object id="217" name="yellow.8" type="alien_target" x="16450" y="350" width="70" height="70"/>
+  <object id="218" name="yellow.8" type="ship_dropoff" x="16450" y="70" width="70" height="70"/>
+  <object id="219" name="yellow.9" type="alien_target" x="16660" y="210" width="70" height="70"/>
+  <object id="220" name="yellow.9" type="ship_dropoff" x="16660" y="140" width="70" height="70"/>
+  <object id="221" name="yellow.10" type="alien_target" x="16870" y="420" width="70" height="70"/>
+  <object id="222" name="yellow.10" type="ship_dropoff" x="16870" y="350" width="70" height="70"/>
+  <object id="223" name="yellow.11" type="alien_target" x="18270" y="350" width="70" height="70"/>
+  <object id="224" name="yellow.11" type="ship_dropoff" x="18270" y="140" width="70" height="70"/>
+  <object id="77" name="pink.11" type="alien_target" x="16310" y="350" width="70" height="70"/>
+  <object id="78" name="pink.11" type="ship_dropoff" x="16310" y="210" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="background_effects">
+  <object id="21" type="effect_planet_dust" x="280" y="280" width="70" height="140"/>
+  <object id="56" type="effect_planet_dust" x="1260" y="140" width="70" height="140"/>
+  <object id="57" type="effect_planet_dust" x="1680" y="280" width="70" height="140"/>
+  <object id="58" type="effect_planet_dust" x="2660" y="210" width="70" height="140"/>
+  <object id="59" type="effect_planet_dust" x="3850" y="70" width="70" height="140"/>
+  <object id="60" type="effect_planet_dust" x="4620" y="210" width="70" height="140"/>
+  <object id="61" type="effect_planet_dust" x="5180" y="140" width="70" height="140"/>
+  <object id="62" type="effect_planet_dust" x="6020" y="140" width="70" height="140"/>
+  <object id="63" type="effect_planet_dust" x="8050" y="210" width="70" height="140"/>
+  <object id="64" type="effect_planet_dust" x="9170" y="140" width="70" height="140"/>
+  <object id="65" type="effect_planet_dust" x="9940" y="210" width="70" height="140"/>
+  <object id="66" type="effect_planet_dust" x="11410" y="140" width="70" height="140"/>
+  <object id="67" type="effect_planet_dust" x="12180" y="280" width="70" height="140"/>
+  <object id="68" type="effect_planet_dust" x="12670" y="210" width="70" height="140"/>
+  <object id="69" type="effect_planet_dust" x="13230" y="140" width="70" height="140"/>
+  <object id="70" type="effect_planet_dust" x="14140" y="210" width="70" height="140"/>
+  <object id="71" type="effect_planet_dust" x="15750" y="280" width="70" height="140"/>
+  <object id="72" type="effect_planet_dust" x="17780" y="70" width="70" height="140"/>
+  <object id="73" type="effect_planet_dust" x="18200" y="280" width="70" height="140"/>
+  <object id="74" type="effect_planet_dust" x="18340" y="280" width="70" height="140"/>
+  <object id="75" type="effect_planet_dust" x="18760" y="280" width="70" height="140"/>
+  <object id="76" type="effect_planet_dust" x="18690" y="280" width="70" height="140"/>
+ </objectgroup>
+ <objectgroup name="foreground_effects"/>
+ <objectgroup name="npc"/>
+</map>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="8" tilewidth="70" tileheight="70" nextobjectid="202">
+ <properties>
+  <property name="blocks" value="wood_1x2_triangle_left,wood_2x1,wood_pyramid,wood_small_triangle_right,wood_square_small_triangle_left,wood_square_small_triangle_left"/>
+  <property name="music" value="happy_level"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="4" margin="2" tilecount="117">
+  <image source="../../graphics/tiles.png" width="962" height="666"/>
+  <tile id="114">
+   <animation>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="115" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <imagelayer name="background_b" x="1024" y="-300">
+  <image source="../../graphics/backgrounds/blue_land.png"/>
+ </imagelayer>
+ <imagelayer name="background_a" y="-300">
+  <image source="../../graphics/backgrounds/blue_shroom.png"/>
+ </imagelayer>
+ <layer name="tiles_background" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwm0B9oBBIAtDc22oaHZ9AbFUIyNj4/NgKYPWQ0+DAMAGwkJLg==
+  </data>
+ </layer>
+ <layer name="tiles_terrain" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiZQH2A7JUBYoUBslcRiBmhmJD/qRU+MlCMzMdnH0xeGYhVgFiNBvaqYxFHptH1UstebGxK7QUASPgD+A==
+  </data>
+ </layer>
+ <layer name="tiles_foreground" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYoD3A9o8C4oDWQDtgFGAFANJwAFY=
+  </data>
+ </layer>
+ <objectgroup name="terrain">
+  <object id="192" type="GRASS" x="140" y="140">
+   <polygon points="0,0 70,0 70,420 0,420"/>
+  </object>
+  <object id="193" type="GRASS" x="210" y="210">
+   <polygon points="0,0 70,70 70,350 0,350"/>
+  </object>
+  <object id="196" type="GRASS" x="420" y="280">
+   <polygon points="0,0 70,0 70,280 0,280"/>
+  </object>
+  <object id="197" type="GRASS" x="630" y="420">
+   <polygon points="0,0 70,0 70,140 0,140"/>
+  </object>
+  <object id="198" type="GRASS" x="840" y="350">
+   <polygon points="0,0 70,0 70,210 0,210"/>
+  </object>
+  <object id="199" type="GRASS" x="980" y="280">
+   <polygon points="0,0 70,0 70,280 0,280"/>
+  </object>
+  <object id="200" type="GRASS" x="1120" y="350">
+   <polygon points="0,0 210,0 210,210 0,210"/>
+  </object>
+  <object id="201" type="WOOD" x="280" y="280">
+   <polygon points="0,0 140,0 140,35 0,35"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="entities">
+  <properties>
+   <property name="blocks" value="wood_square_small_triangle_left,stone_square_small_triangle_left,stone_square"/>
+   <property name="music" value="happy_level"/>
+  </properties>
+  <object id="4" name="start" type="start" x="420" y="210" width="70" height="70"/>
+  <object id="5" name="target" type="target" x="1190" y="280" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="background_effects">
+  <object id="191" type="effect_clouds" x="70" y="0" width="1540" height="140"/>
+ </objectgroup>
+ <objectgroup name="foreground_effects"/>
+ <objectgroup name="npc"/>
+</map>

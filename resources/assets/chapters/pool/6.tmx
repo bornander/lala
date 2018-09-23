@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="8" tilewidth="70" tileheight="70" nextobjectid="40">
+ <properties>
+  <property name="button_highlight" value="MIRROR"/>
+  <property name="message" value="[BLUE]BLOCKS[WHITE] CAN BE STACKED ON TOP OF EACHOTHER."/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="4" margin="2" tilecount="117">
+  <image source="../../graphics/tiles.png" width="962" height="666"/>
+  <tile id="114">
+   <animation>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="115" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <imagelayer name="background_b" x="1024" y="-450">
+  <image source="../../graphics/backgrounds/blue_desert.png"/>
+ </imagelayer>
+ <imagelayer name="background_a" y="-450">
+  <image source="../../graphics/backgrounds/blue_land.png"/>
+ </imagelayer>
+ <layer name="tiles_background" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwXYArEGAXl0wEIjt1ALWA20A4Y5AAC4NwDh
+  </data>
+ </layer>
+ <layer name="tiles_terrain" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIx14ALEnGvbGIweTZ0TCjlAMA65E2OuIA+OTc8RhBgy4obmfFHs9KbAXWV0xDozPbHwYmxkwAABxtxYh
+  </data>
+ </layer>
+ <layer name="tiles_foreground" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgxWwECk2mMFQc+9QAwAaEAAN
+  </data>
+ </layer>
+ <objectgroup name="terrain">
+  <object id="33" type="SAND" x="630" y="560">
+   <polygon points="0,0 0,-280 420,-280 420,0"/>
+  </object>
+  <object id="34" type="SAND" x="1050" y="420">
+   <polygon points="0,0 70,0 70,140 0,140"/>
+  </object>
+  <object id="35" type="SAND" x="1120" y="280">
+   <polygon points="0,0 490,0 490,280 0,280"/>
+  </object>
+  <object id="38" type="WOOD" x="1610" y="280">
+   <polygon points="0,0 210,0 210,70 0,70"/>
+  </object>
+  <object id="39" type="SAND" x="1820" y="280">
+   <polygon points="0,0 140,0 140,280 0,280"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="entities">
+  <object id="4" name="start" type="start" x="770" y="210" width="70" height="70"/>
+  <object id="5" name="target" type="target" x="1400" y="210" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="background_effects"/>
+ <objectgroup name="foreground_effects"/>
+ <objectgroup name="npc"/>
+</map>

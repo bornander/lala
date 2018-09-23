@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="8" tilewidth="70" tileheight="70" nextobjectid="176">
+ <properties>
+  <property name="blocks" value="stone_1x2_triangle_left,stone_square_small_triangle_left"/>
+  <property name="music" value="swinging_level"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="4" margin="2" tilecount="117">
+  <image source="../../graphics/tiles.png" width="962" height="666"/>
+  <tile id="114">
+   <animation>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="115" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <imagelayer name="background_b" x="1024" y="-300">
+  <image source="../../graphics/backgrounds/colored_desert.png"/>
+ </imagelayer>
+ <imagelayer name="background_a" y="-300">
+  <image source="../../graphics/backgrounds/colored_desert.png"/>
+ </imagelayer>
+ <layer name="tiles_background" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQw0UDlO7hjIoRsMMaGxkdfjMwGc2NjMBJvkGRw==
+  </data>
+ </layer>
+ <layer name="tiles_terrain" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIwn44JHzAGJPKPYmQx4fcMRijjeSHDJGdqcHDnlkNcTai24GurmeeOTQzaGmvYTk8NkLAN74DsQ=
+  </data>
+ </layer>
+ <layer name="tiles_foreground" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwE0CMizQOk8AupsKXQHCwF5TQrNHwW0BQAVHgEF
+  </data>
+ </layer>
+ <objectgroup name="terrain">
+  <object id="155" type="SAND" x="280" y="280">
+   <polygon points="0,0 70,0 70,280 0,280"/>
+  </object>
+  <object id="156" type="SAND" x="490" y="350">
+   <polygon points="0,0 210,0 210,210 0,210"/>
+  </object>
+  <object id="157" type="SAND" x="770" y="280">
+   <polygon points="0,0 280,0 280,280 0,280"/>
+  </object>
+  <object id="158" type="SAND" x="1050" y="420">
+   <polygon points="0,0 70,0 70,140 0,140"/>
+  </object>
+  <object id="159" type="SAND" x="1120" y="350">
+   <polygon points="0,0 70,0 70,210 0,210"/>
+  </object>
+  <object id="160" type="SAND" x="1260" y="350">
+   <polygon points="0,0 70,0 70,210 0,210"/>
+  </object>
+  <object id="162" type="SAND" x="1330" y="280">
+   <polygon points="0,0 280,0 280,280 0,280"/>
+  </object>
+  <object id="163" type="SAND" x="1750" y="350">
+   <polygon points="0,0 70,0 70,210 0,210"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="entities">
+  <properties>
+   <property name="blocks" value="wood_square_small_triangle_left,stone_square_small_triangle_left,stone_square"/>
+   <property name="music" value="happy_level"/>
+  </properties>
+  <object id="4" name="start" type="start" x="910" y="210" width="70" height="70"/>
+  <object id="5" name="target" type="target" x="1400" y="210" width="70" height="70"/>
+  <object id="172" type="clickable" x="297.5" y="245" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_brown"/>
+   </properties>
+  </object>
+  <object id="173" type="clickable" x="997.5" y="227.5" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_red"/>
+   </properties>
+  </object>
+  <object id="174" type="clickable" x="1137.5" y="315" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_red"/>
+   </properties>
+  </object>
+  <object id="175" type="clickable" x="1347.5" y="245" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_red"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="background_effects">
+  <object id="11" type="effect_clouds" x="350" y="0" width="1540" height="140"/>
+ </objectgroup>
+ <objectgroup name="foreground_effects"/>
+ <objectgroup name="npc">
+  <object id="135" type="flier" x="980" y="192.5" width="350" height="140">
+   <properties>
+    <property name="skin" value="fly"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

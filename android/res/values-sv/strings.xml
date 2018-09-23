@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lala</string>
+    <string name="tagline">RÄDDA ALLA LALAS!</string>
+    <string name="sub_tagline_0">LJUDEFFEKTER AV EMMA</string>
+    <string name="sub_tagline_1">LJUDEFFEKTER AV OSKAR</string>
+    <string name="sub_tagline_2">FYSIK FRÅN BOX2D</string>
+    <string name="sub_tagline_3">BYGGT MED LIBGDX</string>
+    <string name="sub_tagline_4">MUSIK AV SKETCHYLOGIC</string>
+    <string name="sub_tagline_5">GRAFIK AV KENNEY</string>
+    <string name="sub_tagline_6">PROGRAMMERAT AV FREDRIK BORNANDER</string>
+	<string name="instruction_0_0">[WHITE]TRYCK PÅ [BLUE]PLAY[WHITE] FÖR ATT FÅ [GREEN]RYMDVARELSEN[WHITE] ATT GÅ TILL [YELLOW]RYMDSKEPPET[WHITE].</string>
+    <string name="instruction_0_1">[WHITE]DRA OCH SLÄPP TRÄLÅDAN TILL [BLUE]HÅLET[WHITE] SÅ ATT [GREEN]RYMDVARELSEN[WHITE] KAN KOMMA ÖVER.</string>
+    <string name="instruction_0_3">[WHITE]BLOCK KAN [BLUE]STAPLAS[WHITE] PÅ VARANDRA.</string>
+    <string name="instruction_0_4">[WHITE]IBLAND MÅSTE BLOCK [BLUE]ROTERAS[WHITE].</string>
+    <string name="instruction_0_5">[WHITE]BLOCK KAN [BLUE]SPEGELVÄNDAS[WHITE].</string>
+    <string name="block_overlap">[WHITE]BLOCK FÅR [RED]INTE[WHITE] ÖVERLAPPA!</string>
+    <string name="completed_0">BRA JOBBAT!</string>
+    <string name="completed_1">SNYGGT!</string>
+    <string name="completed_2">TOPPEN!</string>
+    <string name="completed_3">JÄTTEBRA!</string>
+    <string name="completed_4">SUPER!</string>
+    <string name="homeplanet_0">DETTA ÄR LALAS HEMPLANET.\r\nDU HAR RÄDDAT [BLUE]"</string>
+    <string name="homeplanet_1">[WHITE] LALAS"</string>     
+
+    
+    <string name="name_0_0">BÖRJAN</string>   
+    <string name="name_0_1">ENKELT</string>   
+    <string name="name_0_2">RAKT FRAM</string>   
+    <string name="name_0_3">EN HÖG HÖG</string>   
+    <string name="name_0_4">90 GRADER I SKUGGAN</string>   
+    <string name="name_0_5">Å ANDRA SIDAN</string>
+    <string name="name_0_6">UPPFÖR RAMPEN</string>
+    <string name="name_0_7">ÖVERFLÖDIG</string>
+    <string name="name_0_8">ÖKENHÖJD</string>
+    <string name="name_0_9">LERIG</string>
+    <string name="name_0_10">STENBRO</string>
+    <string name="name_0_11">LÄNGRE STENBRO</string>
+    
+    <string name="name_1_0">SOM ETT PUSSEL</string>   
+    <string name="name_1_1">NER SEDAN UPP</string>   
+    <string name="name_1_2">STENKLYFTA</string>   
+    <string name="name_1_3">INTE SOM ETT PUSSEL</string>   
+    <string name="name_1_4">TRE PELARE</string>   
+    <string name="name_1_5">GRÄSLIGT HÖGT</string>
+    <string name="name_1_6">OLIKA TYNGD</string>
+    <string name="name_1_7">SVAMPAR</string>
+    <string name="name_1_8">STENIG MED ENKEL</string>
+    <string name="name_1_9">SUPERLÄTT</string>
+    <string name="name_1_10">OLIKA TYNGD 2</string>
+    <string name="name_1_11">UPP MED DIG</string>
+    
+    <string name="name_2_0">DEN HÄR IGEN?</string>   
+    <string name="name_2_1">90 GRADERS STÖD</string>   
+    <string name="name_2_2">STICKER UT</string>   
+    <string name="name_2_3">SYMMETRISK</string>   
+    <string name="name_2_4">EN STENIG PROMENAD</string>   
+    <string name="name_2_5">FRÅN SVAMP TILL SKEPP</string>
+    <string name="name_2_6">AKTA VATTNET</string>
+    <string name="name_2_7">EN ÖKENFLUGA</string>
+    <string name="name_2_8">TVÅ BLOCKSSTEG</string>
+    <string name="name_2_9">EN STOR SVAMP</string>
+    <string name="name_2_10">MÅNGA SÄTT</string>
+    <string name="name_2_11">LITE KONSTIG</string>
+    
+    <string name="name_3_0">EN BRANT BACKE</string>   
+    <string name="name_3_1">ÖKENKILAR</string>   
+    <string name="name_3_2">EN PROMENAD I SOLEN</string>   
+    <string name="name_3_3">ENKELT</string>   
+    <string name="name_3_4">STAMPLER\'S LEVEL</string>   
+    <string name="name_3_5">UTSTICKARE MED MOTVIKTER</string>
+    <string name="name_3_6">KONSTIG</string>
+    <string name="name_3_7">J0\'S LEVEL</string>
+    <string name="name_3_8">VINTERLAND</string>
+    <string name="name_3_9">GANSKA LÅNGT</string>
+    <string name="name_3_10">SVAMPHÖJD</string>
+    <string name="name_3_11">EN SNÖIG BACKE</string>      
+    
+    <string name="name_4_0">HOPPA I</string>   
+    <string name="name_4_1">MASSOR AV BLOCK</string>   
+    <string name="name_4_2">STICKER UT LÅNGT</string>   
+    <string name="name_4_3">INTE EN CHANS</string>   
+    <string name="name_4_4">FÖRST NER, SEDAN UPP</string>   
+    <string name="name_4_5">FÖR MÅNGA BLOCK</string>
+    <string name="name_4_6">FYRA AV VARJE</string>
+    <string name="name_4_7">EDVIN\'S EXTREME TRACK</string>
+    <string name="name_4_8">FLUGOR ÖVERALLT</string>
+    <string name="name_4_9">OMÖJLIG</string>
+    <string name="name_4_10">RAMLA INTE I</string>
+    <string name="name_4_11">DET GÅR NOG INTE</string>     
+</resources>

@@ -1,0 +1,160 @@
+
+blocks.png
+size: 1008,896
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+metal_1x2
+  rotate: false
+  xy: 2, 2
+  size: 70, 140
+  orig: 70, 140
+  offset: 0, 0
+  index: -1
+metal_1x2_triangle_left
+  rotate: false
+  xy: 146, 2
+  size: 70, 220
+  orig: 70, 220
+  offset: 0, 0
+  index: -1
+metal_pyramid
+  rotate: false
+  xy: 290, 2
+  size: 140, 70
+  orig: 140, 70
+  offset: 0, 0
+  index: -1
+metal_small_triangle_left
+  rotate: false
+  xy: 434, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+metal_small_triangle_right
+  rotate: false
+  xy: 578, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+metal_square
+  rotate: false
+  xy: 722, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+metal_square_small_triangle_left
+  rotate: false
+  xy: 866, 2
+  size: 70, 140
+  orig: 70, 140
+  offset: 0, 0
+  index: -1
+stone_1x2
+  rotate: false
+  xy: 2, 226
+  size: 70, 140
+  orig: 70, 140
+  offset: 0, 0
+  index: -1
+stone_1x2_triangle_left
+  rotate: false
+  xy: 146, 226
+  size: 70, 210
+  orig: 70, 210
+  offset: 0, 0
+  index: -1
+stone_pyramid
+  rotate: false
+  xy: 290, 226
+  size: 140, 70
+  orig: 140, 70
+  offset: 0, 0
+  index: -1
+stone_small_triangle_left
+  rotate: false
+  xy: 434, 226
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+stone_small_triangle_right
+  rotate: false
+  xy: 578, 226
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+stone_square
+  rotate: false
+  xy: 722, 226
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+stone_square_small_triangle_left
+  rotate: false
+  xy: 866, 226
+  size: 70, 140
+  orig: 70, 140
+  offset: 0, 0
+  index: -1
+wood_1x2
+  rotate: false
+  xy: 2, 450
+  size: 70, 140
+  orig: 70, 140
+  offset: 0, 0
+  index: -1
+wood_1x2_triangle_left
+  rotate: false
+  xy: 146, 450
+  size: 70, 220
+  orig: 70, 220
+  offset: 0, 0
+  index: -1
+wood_2x1
+  rotate: false
+  xy: 290, 450
+  size: 140, 70
+  orig: 140, 70
+  offset: 0, 0
+  index: -1
+wood_pyramid
+  rotate: false
+  xy: 434, 450
+  size: 140, 70
+  orig: 140, 70
+  offset: 0, 0
+  index: -1
+wood_small_triangle_left
+  rotate: false
+  xy: 578, 450
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+wood_small_triangle_right
+  rotate: false
+  xy: 722, 450
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+wood_square
+  rotate: false
+  xy: 866, 450
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+wood_square_small_triangle_left
+  rotate: false
+  xy: 2, 674
+  size: 70, 140
+  orig: 70, 140
+  offset: 0, 0
+  index: -1

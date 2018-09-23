@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lala</string>
+    <string name="tagline">SAVE ALL THE LALAS!</string>
+    <string name="sub_tagline_0">SOUND EFFECTS BY EMMA</string>
+    <string name="sub_tagline_1">SOUND EFFECTS BY OSKAR</string>
+    <string name="sub_tagline_2">PHYSICS BY BOX2D</string>
+    <string name="sub_tagline_3">BUILT USING LIBGDX</string>
+    <string name="sub_tagline_4">MUSIC BY SKETCHYLOGIC</string>
+    <string name="sub_tagline_5">GRAPHICS BY KENNEY</string>
+    <string name="sub_tagline_6">PROGRAMMED BY FREDRIK BORNANDER</string>
+    <string name="instruction_0_0">[WHITE]PRESS [BLUE]PLAY[WHITE] TO MAKE THE [GREEN]ALIEN[WHITE] GO TO THE [YELLOW]SPACESHIP[WHITE].</string>
+    <string name="instruction_0_1">[WHITE]DRAG THE WOODEN BOX TO THE [BLUE]GAP[WHITE] TO LET THE [GREEN]ALIEN[WHITE] CROSS.</string> 
+    <string name="instruction_0_3">[WHITE]BLOCKS CAN BE [BLUE]STACKED[WHITE] ON TOP OF EACH OTHER.</string>
+    <string name="instruction_0_4">[WHITE]SOMETIMES BLOCKS MUST BE [BLUE]ROTATED[WHITE].</string>
+    <string name="instruction_0_5">[WHITE]BLOCKS CAN BE [BLUE]MIRRORED[WHITE].</string>
+    <string name="block_overlap">[WHITE]BLOCKS MUST [RED]NOT[WHITE] OVERLAP!</string>
+    <string name="completed_0">WELL DONE!</string>
+    <string name="completed_1">GOOD JOB!</string>
+    <string name="completed_2">AWESOME!</string>
+    <string name="completed_3">GREAT!</string>
+    <string name="completed_4">SUPERB!</string>
+    <string name="homeplanet_0">THIS IS THE LALAS HOME PLANET.\r\nYOU HAVE SAVED "</string>
+    <string name="homeplanet_1"> LALAS"</string>
+    <string name="name_0_0">THE BEGINNING</string>   
+    <string name="name_0_1">EASY DOES IT</string>   
+    <string name="name_0_2">STRAIGHT FORWARD</string>   
+    <string name="name_0_3">THE FIRST STACK IS THE TALLEST</string>   
+    <string name="name_0_4">90 DEGREES IN THE SHADE</string>   
+    <string name="name_0_5">ON THE FLIPSIDE</string>
+    <string name="name_0_6">RAMP IT UP</string>
+    <string name="name_0_7">SUPERFLUOUS</string>
+    <string name="name_0_8">HIGH DESERT</string>
+    <string name="name_0_9">MUDDY</string>
+    <string name="name_0_10">STONE BRIDGE</string>
+    <string name="name_0_11">LONGER STONE BRIDGE</string>
+    
+    <string name="name_1_0">LIKE A JIGSAW PUZZLE</string>   
+    <string name="name_1_1">DOWN THEN UP</string>   
+    <string name="name_1_2">STONE CHASM</string>   
+    <string name="name_1_3">NOT LIKE A JIGSAW PUZZLE</string>   
+    <string name="name_1_4">THREE PILLARS</string>   
+    <string name="name_1_5">GRASSY HILL CLIMB</string>
+    <string name="name_1_6">DIFFERENT WEIGHTS</string>
+    <string name="name_1_7">MUSHROOM HOPPING</string>
+    <string name="name_1_8">ROCKY BUT EASY</string>
+    <string name="name_1_9">EASY PEASY</string>
+    <string name="name_1_10">DIFFERENT WEIGHTS II</string>
+    <string name="name_1_11">UP YOU GO</string>
+    
+    <string name="name_2_0">THIS AGAIN?</string>   
+    <string name="name_2_1">90 DEGREE SUPPORT</string>   
+    <string name="name_2_2">JUTTING OUT</string>   
+    <string name="name_2_3">SYMMETRICAL</string>   
+    <string name="name_2_4">A ROCKY WALK</string>   
+    <string name="name_2_5">FROM MUSHROOM TO SHIP</string>
+    <string name="name_2_6">WATCH THE WATER</string>
+    <string name="name_2_7">A DESERT FLY</string>
+    <string name="name_2_8">TWO BLOCK STEP</string>
+    <string name="name_2_9">A BIG MUSHROOM</string>
+    <string name="name_2_10">MANY WAYS</string>
+    <string name="name_2_11">A BIT WONKY</string>
+    
+    <string name="name_3_0">A STEEP CLIMB</string>   
+    <string name="name_3_1">DESERT WEDGES</string>   
+    <string name="name_3_2">A WALK IN THE SUN</string>   
+    <string name="name_3_3">A CAKE WALK</string>   
+    <string name="name_3_4">STAMPLER\'S LEVEL</string>   
+    <string name="name_3_5">EXTENDING WITH COUNTERWEIGHTS</string>
+    <string name="name_3_6">A BIT WEIRD </string>
+    <string name="name_3_7">J0\'S LEVEL</string>
+    <string name="name_3_8">WINTER WONDER LAND</string>
+    <string name="name_3_9">QUITE THE TREK</string>
+    <string name="name_3_10">TALL MUSHROOM</string>
+    <string name="name_3_11">A SNOWY CLIMB</string>      
+    
+    <string name="name_4_0">JUMP IN</string>   
+    <string name="name_4_1">LOTS OF BLOCKS</string>   
+    <string name="name_4_2">EXTENDING FAR</string>   
+    <string name="name_4_3">NO WAY</string>   
+    <string name="name_4_4">FIRST DOWN, THEN UP</string>   
+    <string name="name_4_5">BLOCK OVERLOAD</string>
+    <string name="name_4_6">FOUR OF EACH </string>
+    <string name="name_4_7">EDVIN\'S EXTREME TRACK</string>
+    <string name="name_4_8">FLIES EVERYWHERE</string>
+    <string name="name_4_9">IMPOSSIBLE</string>
+    <string name="name_4_10">DON\'T FALL IN</string>
+    <string name="name_4_11">CAN\'T BE DONE</string>      
+    
+</resources>

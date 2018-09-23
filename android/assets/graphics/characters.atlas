@@ -1,0 +1,545 @@
+
+characters.png
+size: 1980,1560
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+alienBeige_climb1
+  rotate: false
+  xy: 2, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBeige_climb2
+  rotate: false
+  xy: 134, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBeige_duck
+  rotate: false
+  xy: 266, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBeige_front
+  rotate: false
+  xy: 398, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBeige_hit
+  rotate: false
+  xy: 530, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBeige_jump
+  rotate: false
+  xy: 662, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBeige_sad
+  rotate: false
+  xy: 794, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBeige_stand
+  rotate: false
+  xy: 926, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBeige_swim1
+  rotate: false
+  xy: 1058, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBeige_swim2
+  rotate: false
+  xy: 1190, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBeige_walk1
+  rotate: false
+  xy: 1322, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBeige_walk2
+  rotate: false
+  xy: 1454, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBlue_climb1
+  rotate: false
+  xy: 1586, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBlue_climb2
+  rotate: false
+  xy: 1718, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBlue_duck
+  rotate: false
+  xy: 1850, 2
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBlue_front
+  rotate: false
+  xy: 2, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBlue_hit
+  rotate: false
+  xy: 134, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBlue_jump
+  rotate: false
+  xy: 266, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBlue_sad
+  rotate: false
+  xy: 398, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBlue_stand
+  rotate: false
+  xy: 530, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBlue_swim1
+  rotate: false
+  xy: 662, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBlue_swim2
+  rotate: false
+  xy: 794, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBlue_walk1
+  rotate: false
+  xy: 926, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienBlue_walk2
+  rotate: false
+  xy: 1058, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienGreen_climb1
+  rotate: false
+  xy: 1190, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienGreen_climb2
+  rotate: false
+  xy: 1322, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienGreen_duck
+  rotate: false
+  xy: 1454, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienGreen_front
+  rotate: false
+  xy: 1586, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienGreen_hit
+  rotate: false
+  xy: 1718, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienGreen_jump
+  rotate: false
+  xy: 1850, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienGreen_sad
+  rotate: false
+  xy: 2, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienGreen_stand
+  rotate: false
+  xy: 134, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienGreen_swim1
+  rotate: false
+  xy: 266, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienGreen_swim2
+  rotate: false
+  xy: 398, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienGreen_walk1
+  rotate: false
+  xy: 530, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienGreen_walk2
+  rotate: false
+  xy: 662, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienPink_climb1
+  rotate: false
+  xy: 794, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienPink_climb2
+  rotate: false
+  xy: 926, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienPink_duck
+  rotate: false
+  xy: 1058, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienPink_front
+  rotate: false
+  xy: 1190, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienPink_hit
+  rotate: false
+  xy: 1322, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienPink_jump
+  rotate: false
+  xy: 1454, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienPink_sad
+  rotate: false
+  xy: 1586, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienPink_stand
+  rotate: false
+  xy: 1718, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienPink_swim1
+  rotate: false
+  xy: 1850, 522
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienPink_swim2
+  rotate: false
+  xy: 2, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienPink_walk1
+  rotate: false
+  xy: 134, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienPink_walk2
+  rotate: false
+  xy: 266, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienYellow_climb1
+  rotate: false
+  xy: 398, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienYellow_climb2
+  rotate: false
+  xy: 530, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienYellow_duck
+  rotate: false
+  xy: 662, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienYellow_front
+  rotate: false
+  xy: 794, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienYellow_hit
+  rotate: false
+  xy: 926, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienYellow_jump
+  rotate: false
+  xy: 1058, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienYellow_sad
+  rotate: false
+  xy: 1190, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienYellow_stand
+  rotate: false
+  xy: 1322, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienYellow_swim1
+  rotate: false
+  xy: 1454, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienYellow_swim2
+  rotate: false
+  xy: 1586, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienYellow_walk1
+  rotate: false
+  xy: 1718, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+alienYellow_walk2
+  rotate: false
+  xy: 1850, 782
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+bat
+  rotate: false
+  xy: 2, 1042
+  size: 70, 47
+  orig: 70, 47
+  offset: 0, 0
+  index: -1
+bat_fly
+  rotate: false
+  xy: 134, 1042
+  size: 88, 37
+  orig: 88, 37
+  offset: 0, 0
+  index: -1
+bat_hang
+  rotate: false
+  xy: 266, 1042
+  size: 38, 48
+  orig: 38, 48
+  offset: 0, 0
+  index: -1
+bee
+  rotate: false
+  xy: 398, 1042
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+bee_move
+  rotate: false
+  xy: 530, 1042
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+fly
+  rotate: false
+  xy: 662, 1042
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+fly_move
+  rotate: false
+  xy: 794, 1042
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shipBeige
+  rotate: false
+  xy: 926, 1042
+  size: 124, 122
+  orig: 124, 122
+  offset: 0, 0
+  index: -1
+shipBeige_manned
+  rotate: false
+  xy: 1058, 1042
+  size: 124, 122
+  orig: 124, 122
+  offset: 0, 0
+  index: -1
+shipBlue
+  rotate: false
+  xy: 1190, 1042
+  size: 124, 145
+  orig: 124, 145
+  offset: 0, 0
+  index: -1
+shipBlue_manned
+  rotate: false
+  xy: 1322, 1042
+  size: 124, 145
+  orig: 124, 145
+  offset: 0, 0
+  index: -1
+shipGreen
+  rotate: false
+  xy: 1454, 1042
+  size: 124, 123
+  orig: 124, 123
+  offset: 0, 0
+  index: -1
+shipGreen_manned
+  rotate: false
+  xy: 1586, 1042
+  size: 124, 123
+  orig: 124, 123
+  offset: 0, 0
+  index: -1
+shipPink
+  rotate: false
+  xy: 1718, 1042
+  size: 124, 127
+  orig: 124, 127
+  offset: 0, 0
+  index: -1
+shipPink_manned
+  rotate: false
+  xy: 1850, 1042
+  size: 124, 127
+  orig: 124, 127
+  offset: 0, 0
+  index: -1
+shipYellow
+  rotate: false
+  xy: 2, 1302
+  size: 124, 108
+  orig: 124, 108
+  offset: 0, 0
+  index: -1
+shipYellow_manned
+  rotate: false
+  xy: 134, 1302
+  size: 124, 108
+  orig: 124, 108
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="8" tilewidth="70" tileheight="70" nextobjectid="56">
+ <properties>
+  <property name="blocks" value="wood_small_triangle_right,wood_small_triangle_left,wood_square"/>
+  <property name="music" value="swinging_level"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="4" margin="2" tilecount="117">
+  <image source="../../graphics/tiles.png" width="962" height="666"/>
+  <tile id="114">
+   <animation>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="115" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <imagelayer name="background_b" x="1024" y="-299">
+  <image source="../../graphics/backgrounds/colored_shroom.png"/>
+ </imagelayer>
+ <imagelayer name="background_a" y="-300">
+  <image source="../../graphics/backgrounds/colored_shroom.png"/>
+ </imagelayer>
+ <layer name="tiles_background" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowAVSKBhyYF1zijAAwDKPAB6
+  </data>
+ </layer>
+ <layer name="tiles_terrain" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwkIA7EIFixGY3t58GBKAR8Ddj+JEGGvOJpZ2MwQwGEfPwHz8dmL7m9s6gTR3EGufTAsgkaDAAARWASs
+  </data>
+ </layer>
+ <layer name="tiles_foreground" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AAaQKwJxFYD7ZBBBmDhggvk08shQJBLZfPo6XZcAADljgIo
+  </data>
+ </layer>
+ <objectgroup name="terrain">
+  <object id="42" type="DIRT" x="0" y="420">
+   <polygon points="0,0 350,0 420,70 420,140 0,140"/>
+  </object>
+  <object id="43" type="DIRT" x="420" y="490">
+   <polygon points="0,0 210,0 210,70 0,70"/>
+  </object>
+  <object id="44" type="DIRT" x="630" y="490">
+   <polygon points="0,0 70,-70 140,-70 140,70 0,70"/>
+  </object>
+  <object id="45" type="DIRT" x="770" y="420">
+   <polygon points="0,0 70,-70 490,-70 490,140 0,140"/>
+  </object>
+  <object id="46" type="DIRT" x="1260" y="210">
+   <polygon points="0,0 490,0 490,350 0,350"/>
+  </object>
+  <object id="47" type="DIRT" x="1750" y="490">
+   <polygon points="0,0 70,0 210,0 210,70 0,70"/>
+  </object>
+  <object id="48" type="DIRT" x="1820" y="350">
+   <polygon points="0,0 70,0 70,140 0,140"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="entities">
+  <object id="4" name="start" type="start" x="840" y="280" width="70" height="70"/>
+  <object id="5" name="target" type="target" x="1400" y="140" width="70" height="70"/>
+  <object id="49" type="clickable" x="227.5" y="385" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_red"/>
+   </properties>
+  </object>
+  <object id="50" type="clickable" x="1627.5" y="175" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_red"/>
+   </properties>
+  </object>
+  <object id="51" type="clickable" x="1557.5" y="175" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_brown"/>
+   </properties>
+  </object>
+  <object id="52" type="clickable" x="507.5" y="437.5" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_brown"/>
+   </properties>
+  </object>
+  <object id="53" type="clickable" x="157.5" y="385" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_brown"/>
+   </properties>
+  </object>
+  <object id="54" type="clickable" x="717.5" y="367.5" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_white"/>
+   </properties>
+  </object>
+  <object id="55" type="clickable" x="1907.5" y="437.5" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_white"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="background_effects">
+  <object id="16" type="effect_clouds" x="210" y="0" width="1680" height="140"/>
+ </objectgroup>
+ <objectgroup name="foreground_effects"/>
+ <objectgroup name="npc"/>
+</map>

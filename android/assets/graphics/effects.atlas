@@ -1,0 +1,76 @@
+
+effects.png
+size: 968,417
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+ball
+  rotate: false
+  xy: 2, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+block
+  rotate: false
+  xy: 244, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+circle
+  rotate: false
+  xy: 486, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+cloud4
+  rotate: false
+  xy: 728, 2
+  size: 228, 124
+  orig: 228, 124
+  offset: 0, 0
+  index: -1
+cloud5
+  rotate: false
+  xy: 2, 141
+  size: 238, 135
+  orig: 238, 135
+  offset: 0, 0
+  index: -1
+cloud7
+  rotate: false
+  xy: 244, 141
+  size: 234, 118
+  orig: 234, 118
+  offset: 0, 0
+  index: -1
+cross
+  rotate: false
+  xy: 486, 141
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+leaf
+  rotate: false
+  xy: 728, 141
+  size: 32, 50
+  orig: 32, 50
+  offset: 0, 0
+  index: -1
+starGold
+  rotate: false
+  xy: 2, 280
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+tball
+  rotate: false
+  xy: 244, 280
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1

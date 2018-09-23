@@ -1,0 +1,4 @@
+name:JIGSAW
+type:GRASS
+unlocks_levels:1,2,3
+unlocks_next_chapter:false

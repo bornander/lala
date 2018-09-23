@@ -1,0 +1,4 @@
+name:90 DEGREES
+type:STONE
+unlocks_levels:1,2,3,4,5
+unlocks_next_chapter:false

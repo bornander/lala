@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="8" tilewidth="70" tileheight="70" nextobjectid="195">
+ <properties>
+  <property name="blocks" value="stone_small_triangle_left,stone_small_triangle_left,stone_1x2_triangle_left,stone_1x2_triangle_left,stone_pyramid,stone_pyramid"/>
+  <property name="music" value="happy_level"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="4" margin="2" tilecount="117">
+  <image source="../../graphics/tiles.png" width="962" height="666"/>
+  <tile id="114">
+   <animation>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="115" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <imagelayer name="background_b" x="1024" y="-300">
+  <image source="../../graphics/backgrounds/blue_shroom.png"/>
+ </imagelayer>
+ <imagelayer name="background_a" y="-301">
+  <image source="../../graphics/backgrounds/blue_grass.png"/>
+ </imagelayer>
+ <layer name="tiles_background" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1ASBUFqLSuZxkSiOC3AwYLrJnki92iTaNQoYGIqhGJs4A5pcMZo4uhwuM0AAAHkVBao=
+  </data>
+ </layer>
+ <layer name="tiles_terrain" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9ABhNDQ7BIijoDgGTS6cBLtjoXQkFnMYkORgdoUCcRASRgZBULthbmKEYmT9MUhqYTSyObFI7CA8GN1ebHLYxHHZi0/fYLMXANO5GFk=
+  </data>
+ </layer>
+ <layer name="tiles_foreground" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AasFOqXorI6fCCOCmaMgoEDACFLAJg=
+  </data>
+ </layer>
+ <objectgroup name="terrain">
+  <object id="183" type="SNOW" x="0" y="210">
+   <polygon points="0,0 140,140 140,350 0,350"/>
+  </object>
+  <object id="184" type="SNOW" x="140" y="350">
+   <polygon points="0,0 140,0 140,210 0,210"/>
+  </object>
+  <object id="185" type="WOOD" x="280" y="350">
+   <polygon points="0,0 140,0 138.667,27.3333 1.33333,27.3333"/>
+  </object>
+  <object id="186" type="SNOW" x="420" y="350">
+   <polygon points="0,0 280,0 280,210 0,210"/>
+  </object>
+  <object id="187" type="SNOW" x="770" y="280">
+   <polygon points="0,0 70,0 70,280 0,280"/>
+  </object>
+  <object id="188" type="SNOW" x="910" y="280">
+   <polygon points="0,0 140,0 140,280 0,280"/>
+  </object>
+  <object id="189" type="SNOW" x="1190" y="350">
+   <polygon points="0,0 70,0 70,210 0,210"/>
+  </object>
+  <object id="193" type="SNOW" x="1400" y="280">
+   <polygon points="0,0 490,0 490,280 0,280"/>
+  </object>
+  <object id="194" type="SNOW" x="1680" y="210">
+   <polygon points="0,0 210,0 210,70 -70,70"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="entities">
+  <properties>
+   <property name="blocks" value="wood_square_small_triangle_left,stone_square_small_triangle_left,stone_square"/>
+   <property name="music" value="happy_level"/>
+  </properties>
+  <object id="4" name="start" type="start" x="560" y="280" width="70" height="70"/>
+  <object id="5" name="target" type="target" x="1540" y="210" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="background_effects">
+  <object id="11" type="effect_snow" x="350" y="0" width="1540" height="140"/>
+ </objectgroup>
+ <objectgroup name="foreground_effects"/>
+ <objectgroup name="npc"/>
+</map>

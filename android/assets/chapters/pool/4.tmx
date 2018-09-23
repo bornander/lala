@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="8" tilewidth="70" tileheight="70" nextobjectid="30">
+ <properties>
+  <property name="message" value="[WHITE]THE [GREEN]ALIENS[WHITE] DO NOT LIKE TO [YELLOW]FALL DOWN[WHITE]."/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="4" margin="2" tilecount="117">
+  <image source="../../graphics/tiles.png" width="962" height="666"/>
+ </tileset>
+ <imagelayer name="background_b" x="1024" y="-300">
+  <image source="../../graphics/backgrounds/colored_shroom.png"/>
+ </imagelayer>
+ <imagelayer name="background_a" y="-300">
+  <image source="../../graphics/backgrounds/colored_shroom.png"/>
+ </imagelayer>
+ <layer name="tiles_background" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwFw4RC3o6sryANaQBw40I4YoQAAUw8AxA==
+  </data>
+ </layer>
+ <layer name="tiles_terrain" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxWEAHEUHhxNRbtikewMBeIgAhjZHTFQvZE43BmGZA+yOAPULAYi7cTlDlxy4Uj2IoszoNG0wDAAAB6iG2c=
+  </data>
+ </layer>
+ <layer name="tiles_foreground" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwVw0MGOOCrpI8YcLjLtGgXEAwDzdwEt
+  </data>
+ </layer>
+ <objectgroup name="terrain">
+  <object id="21" type="SNOW" x="420" y="420">
+   <polygon points="0,0 140,-140 700,-140 700,140 0,140"/>
+  </object>
+  <object id="24" type="SNOW" x="1120" y="350">
+   <polygon points="0,0 280,0 280,210 0,210"/>
+  </object>
+  <object id="25" type="SNOW" x="1400" y="420">
+   <polygon points="0,0 70,0 70,140 0,140"/>
+  </object>
+  <object id="26" type="SNOW" x="1470" y="350">
+   <polygon points="0,0 420,0 490,70 490,210 0,210"/>
+  </object>
+  <object id="28" type="SNOW" x="0" y="420">
+   <polygon points="0,0 210,0 210,140 0,140"/>
+  </object>
+  <object id="29" type="WOOD" x="280" y="350">
+   <polygon points="0,0 70,0 70,210 0,210"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="entities">
+  <object id="4" name="start" type="start" x="840" y="210" width="70" height="70"/>
+  <object id="5" name="target" type="target" x="1610" y="280" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="background_effects">
+  <object id="16" type="effect_snow" x="420" y="-70" width="1540" height="140"/>
+ </objectgroup>
+ <objectgroup name="foreground_effects"/>
+ <objectgroup name="npc"/>
+</map>

@@ -1,0 +1,27 @@
+  <object id="201" name="yellow.0" type="alien_target" x="100" y="80" width="70" height="70"/>
+  <object id="202" name="yellow.0" type="ship_dropoff" x="100" y="10" width="70" height="70"/>
+  <object id="203" name="yellow.1" type="alien_target" x="200" y="80" width="70" height="70"/>
+  <object id="204" name="yellow.1" type="ship_dropoff" x="200" y="10" width="70" height="70"/>
+  <object id="205" name="yellow.2" type="alien_target" x="300" y="80" width="70" height="70"/>
+  <object id="206" name="yellow.2" type="ship_dropoff" x="300" y="10" width="70" height="70"/>
+  <object id="207" name="yellow.3" type="alien_target" x="400" y="80" width="70" height="70"/>
+  <object id="208" name="yellow.3" type="ship_dropoff" x="400" y="10" width="70" height="70"/>
+  <object id="209" name="yellow.4" type="alien_target" x="500" y="80" width="70" height="70"/>
+  <object id="210" name="yellow.4" type="ship_dropoff" x="500" y="10" width="70" height="70"/>
+  <object id="211" name="yellow.5" type="alien_target" x="600" y="80" width="70" height="70"/>
+  <object id="212" name="yellow.5" type="ship_dropoff" x="600" y="10" width="70" height="70"/>
+  <object id="213" name="yellow.6" type="alien_target" x="700" y="80" width="70" height="70"/>
+  <object id="214" name="yellow.6" type="ship_dropoff" x="700" y="10" width="70" height="70"/>
+  <object id="215" name="yellow.7" type="alien_target" x="800" y="80" width="70" height="70"/>
+  <object id="216" name="yellow.7" type="ship_dropoff" x="800" y="10" width="70" height="70"/>
+  <object id="217" name="yellow.8" type="alien_target" x="900" y="80" width="70" height="70"/>
+  <object id="218" name="yellow.8" type="ship_dropoff" x="900" y="10" width="70" height="70"/>
+  <object id="219" name="yellow.9" type="alien_target" x="1000" y="80" width="70" height="70"/>
+  <object id="220" name="yellow.9" type="ship_dropoff" x="1000" y="10" width="70" height="70"/>
+  <object id="221" name="yellow.10" type="alien_target" x="1100" y="80" width="70" height="70"/>
+  <object id="222" name="yellow.10" type="ship_dropoff" x="1100" y="10" width="70" height="70"/>
+  <object id="223" name="yellow.11" type="alien_target" x="1200" y="350" width="70" height="70"/>
+  <object id="224" name="yellow.11" type="ship_dropoff" x="1200" y="210" width="70" height="70"/>
+  
+  Test
+  

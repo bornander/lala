@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="8" tilewidth="70" tileheight="70" nextobjectid="43">
+ <properties>
+  <property name="blocks" value="wood_square,wood_1x2"/>
+  <property name="music" value="happy_level"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="4" margin="2" tilecount="117">
+  <image source="../../graphics/tiles.png" width="962" height="666"/>
+  <tile id="114">
+   <animation>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="115" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <imagelayer name="background_b" x="1024" y="-301">
+  <image source="../../graphics/backgrounds/blue_land.png"/>
+ </imagelayer>
+ <imagelayer name="background_a" y="-300">
+  <image source="../../graphics/backgrounds/blue_shroom.png"/>
+ </imagelayer>
+ <layer name="tiles_background" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgxFIYMGSA+qiUUAKKIZiapiBDcMAAN3fBJ0=
+  </data>
+ </layer>
+ <layer name="tiles_terrain" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxHIAbEKEoYBFTxYgQw70PXIA7EMEobZLYMHK6KZo4TFbcjul4fqQRbHZq4KAXthdhMD0PXhs5dYTAwAABsQCIA=
+  </data>
+ </layer>
+ <layer name="tiles_foreground" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwUUEuAX0cshJAANINYkoIaZHg4ZoQAAWJ0BqQ==
+  </data>
+ </layer>
+ <objectgroup name="terrain">
+  <object id="22" type="GRASS" x="0" y="420">
+   <polygon points="0,0 70,0 70,140 0,140"/>
+  </object>
+  <object id="23" type="GRASS" x="70" y="420">
+   <polygon points="0,0 70,-70 140,0 140,140 0,140"/>
+  </object>
+  <object id="24" type="GRASS" x="210" y="420">
+   <polygon points="0,0 70,0 70,140 0,140"/>
+  </object>
+  <object id="32" type="GRASS" x="420" y="560">
+   <polygon points="0,0 0,-210 70,-280 280,-280 280,0"/>
+  </object>
+  <object id="33" type="GRASS" x="700" y="350">
+   <polygon points="0,0 70,0 70,210 0,210"/>
+  </object>
+  <object id="34" type="GRASS" x="770" y="420">
+   <polygon points="0,0 70,0 70,140 0,140"/>
+  </object>
+  <object id="35" type="GRASS" x="840" y="280">
+   <polygon points="0,0 490,0 630,140 630,280 0,280"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="entities">
+  <object id="4" name="start" type="start" x="560" y="210" width="70" height="70"/>
+  <object id="5" name="target" type="target" x="1050" y="210" width="70" height="70"/>
+  <object id="36" type="clickable" x="647.5" y="245" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_red"/>
+   </properties>
+  </object>
+  <object id="37" type="clickable" x="927.5" y="245" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_red"/>
+   </properties>
+  </object>
+  <object id="40" type="clickable" x="1767.5" y="315" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_red"/>
+   </properties>
+  </object>
+  <object id="41" type="clickable" x="1697.5" y="315" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_brown"/>
+   </properties>
+  </object>
+  <object id="42" type="clickable" x="1207.5" y="245" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_white"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="background_effects"/>
+ <objectgroup name="foreground_effects">
+  <object id="17" type="effect_clouds" x="140" y="0" width="1610" height="140"/>
+  <object id="31" x="1610" y="350">
+   <polygon points="0,0 350,0 350,70 0,70"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="npc"/>
+</map>

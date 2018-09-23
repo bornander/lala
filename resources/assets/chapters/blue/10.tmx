@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="8" tilewidth="70" tileheight="70" nextobjectid="107">
+ <properties>
+  <property name="blocks" value="stone_square,stone_1x2_triangle_left"/>
+  <property name="music" value="happy_level"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="4" margin="2" tilecount="117">
+  <image source="../../graphics/tiles.png" width="962" height="666"/>
+  <tile id="114">
+   <animation>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="115" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <imagelayer name="background_b" x="1024" y="-299">
+  <image source="../../graphics/backgrounds/colored_desert.png"/>
+ </imagelayer>
+ <imagelayer name="background_a" y="-300">
+  <image source="../../graphics/backgrounds/colored_desert.png"/>
+ </imagelayer>
+ <layer name="tiles_background" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgxmw0MhcSQrtsSVTH7XBQNs/0AAApxAAZw==
+  </data>
+ </layer>
+ <layer name="tiles_terrain" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowAVOAOxN5qYBxC7UsFcTzSzPaBiIOwCxI5oekB8NyQ1yBife5wZMM1FNtsRC0Y2G5s8DCO7Bwaw2YWMi6EYn7mkYBgAAG2zE3g=
+  </data>
+ </layer>
+ <layer name="tiles_foreground" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A8kD/QDhgFDACr/ABw
+  </data>
+ </layer>
+ <objectgroup name="terrain">
+  <object id="85" type="SAND" x="0" y="490">
+   <polygon points="0,0 140,0 140,70 0,70"/>
+  </object>
+  <object id="86" type="SAND" x="140" y="490">
+   <polygon points="0,0 70,-70 210,-70 210,70 0,70"/>
+  </object>
+  <object id="87" type="SAND" x="350" y="420">
+   <polygon points="0,0 70,-70 210,-70 210,140 0,140"/>
+  </object>
+  <object id="91" type="SAND" x="1820" y="420">
+   <polygon points="0,0 140,0 140,140 0,140"/>
+  </object>
+  <object id="101" type="SAND" x="700" y="420">
+   <polygon points="0,0 1120,0 1120,140 0,140"/>
+  </object>
+  <object id="102" type="SAND" x="700" y="420">
+   <polygon points="0,0 0,-70 350,-70 350,0"/>
+  </object>
+  <object id="103" type="SAND" x="1260" y="350">
+   <polygon points="0,0 490,0 560,70 0,70"/>
+  </object>
+  <object id="104" type="SAND" x="910" y="350">
+   <polygon points="0,0 70,-70 140,-70 140,0"/>
+  </object>
+  <object id="105" type="SAND" x="1260" y="280">
+   <polygon points="0,0 70,0 140,70 0,70"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="entities">
+  <object id="4" name="start" type="start" x="840" y="280" width="70" height="70"/>
+  <object id="5" name="target" type="target" x="1470" y="280" width="70" height="70"/>
+  <object id="106" type="clickable" x="1627.5" y="315" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_white"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="background_effects">
+  <object id="16" type="effect_clouds" x="210" y="0" width="1680" height="140"/>
+ </objectgroup>
+ <objectgroup name="foreground_effects"/>
+ <objectgroup name="npc"/>
+</map>

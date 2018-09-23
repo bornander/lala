@@ -1,0 +1,67 @@
+{
+	com.badlogic.gdx.scenes.scene2d.ui.Image: {
+		cursor: {
+			drawable: cursor
+		},
+		click: {
+			drawable: click
+		},
+		block: {
+			drawable: block
+		},
+		tall_block: {
+			drawable: tallblock
+		},
+		triangleblock1: {
+			drawable: triangleblock1
+		},
+		triangleblock2: {
+			drawable: triangleblock2
+		},
+	},
+	
+    com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+        rotate_left: {
+            down: rotate_left_down,
+            up: rotate_left_up
+        },
+        rotate_right: {
+            down: rotate_right_down,
+            up: rotate_right_up
+        },
+        mirror: {
+            down: mirror_down,
+            up: mirror_up
+        },
+        confirm: {
+            down: confirm_up,
+            up: confirm_down
+        },
+        play: {
+            down: play_down,
+            up: play_up
+        },
+        stop: {
+            down: stop_down,
+            up: stop_up,
+        },
+        reset: {
+            down: reset_down,
+            up: reset_up
+        },
+        home: {
+            down: home_down,
+            up: home_up
+        },
+		sound: { 
+			down: audio_down, 
+			up: audioOff_up, 
+			checked: audioOn_up
+		}    
+		music: { 
+			down: music_down, 
+			up: musicOff_up, 
+			checked: musicOn_up
+		}    
+	}
+}

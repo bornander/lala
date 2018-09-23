@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="8" tilewidth="70" tileheight="70" nextobjectid="199">
+ <properties>
+  <property name="blocks" value="stone_square_small_triangle_left,stone_square,stone_small_triangle_left,stone_small_triangle_right"/>
+  <property name="music" value="swinging_level"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="4" margin="2" tilecount="117">
+  <image source="../../graphics/tiles.png" width="962" height="666"/>
+  <tile id="114">
+   <animation>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="115" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <imagelayer name="background_b" x="1024" y="-299">
+  <image source="../../graphics/backgrounds/blue_shroom.png"/>
+ </imagelayer>
+ <imagelayer name="background_a" y="-300">
+  <image source="../../graphics/backgrounds/blue_grass.png"/>
+ </imagelayer>
+ <layer name="tiles_background" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AJ5BOQT6OGIQWYvoTDBBgqp7I7BAIqhGJmPSw2yHABPbAUg
+  </data>
+ </layer>
+ <layer name="tiles_terrain" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwH4ArEfEPtT2VwVIFajspnEABkoVkHCxLhDGaqOEYpBfFUy7EXHKjiwGpo+ZHOQ3UTID7jsxYdVcNiL7iZ0NcgAAPcGB5c=
+  </data>
+ </layer>
+ <layer name="tiles_foreground" width="30" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIwkwE6lOk4ZuYAJiCSCWRBIj1l0w/aSoH84AAJbsAGg=
+  </data>
+ </layer>
+ <objectgroup name="terrain">
+  <object id="184" type="GRASS" x="0" y="280">
+   <polygon points="0,0 140,0 140,280 0,280"/>
+  </object>
+  <object id="185" type="GRASS" x="140" y="350">
+   <polygon points="0,0 280,0 280,210 0,210"/>
+  </object>
+  <object id="186" type="GRASS" x="420" y="420">
+   <polygon points="0,0 490,0 490,140 0,140"/>
+  </object>
+  <object id="187" type="GRASS" x="910" y="490">
+   <polygon points="0,0 70,0 70,70 0,70"/>
+  </object>
+  <object id="188" type="GRASS" x="980" y="350">
+   <polygon points="0,0 140,0 140,210 0,210"/>
+  </object>
+  <object id="189" type="WOOD" x="1120" y="350">
+   <polygon points="0,0 140,0 140,70 0,70"/>
+  </object>
+  <object id="190" type="GRASS" x="1260" y="350">
+   <polygon points="0,0 70,0 70,210 0,210"/>
+  </object>
+  <object id="191" type="GRASS" x="1330" y="350">
+   <polygon points="0,0 70,0 70,70 0,70"/>
+  </object>
+  <object id="192" type="GRASS" x="1330" y="490">
+   <polygon points="0,0 70,0 70,70 0,70"/>
+  </object>
+  <object id="193" type="GRASS" x="1470" y="420">
+   <polygon points="0,0 280,0 280,140 0,140"/>
+  </object>
+  <object id="195" type="MUSHROOM" x="577.5" y="210">
+   <polygon points="0,0 175,0 175,17.5 157.5,35 17.5,35 0,17.5"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="entities">
+  <properties>
+   <property name="blocks" value="wood_square_small_triangle_left,stone_square_small_triangle_left,stone_square"/>
+   <property name="music" value="happy_level"/>
+  </properties>
+  <object id="4" name="start" type="start" x="770" y="350" width="70" height="70"/>
+  <object id="5" name="target" type="target" x="1540" y="350" width="70" height="70"/>
+  <object id="181" type="effect_leafs" x="857.5" y="402.5" width="38" height="13"/>
+  <object id="182" type="effect_leafs" x="490" y="402.5" width="38" height="13"/>
+  <object id="194" type="effect_leafs" x="1627.5" y="402.5" width="38" height="13"/>
+  <object id="196" type="clickable" x="87.5" y="227.5" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_red"/>
+   </properties>
+  </object>
+  <object id="197" type="clickable" x="717.5" y="367.5" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_red"/>
+   </properties>
+  </object>
+  <object id="198" type="clickable" x="997.5" y="315" width="35" height="35">
+   <properties>
+    <property name="effect" value="mushroom_red"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="background_effects">
+  <object id="11" type="effect_clouds" x="350" y="0" width="1540" height="140"/>
+ </objectgroup>
+ <objectgroup name="foreground_effects">
+  <object id="180" type="effect_leafs" x="1697.5" y="402.5" width="38" height="13"/>
+ </objectgroup>
+ <objectgroup name="npc"/>
+</map>
