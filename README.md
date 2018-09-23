@@ -5,12 +5,13 @@ Android bridge building game for kids.
 
 Lala is a simple puzzle game for young kids. It's written in Java using libGDX.
 
-The game is free, has no ads nor any in-app purchases. 
+The game is **free**, has **no ads** and **no in-app purchases**. 
 It can be downloaded from here: [Google Play download](https://play.google.com/store/apps/details?id=com.bornander.lala.android)
+(or you can clone this repository, build it and deploy it yourself, all assets and resources are included here).
 
 [![Lala trailer](http://img.youtube.com/vi/mVVZ-IUYYHQ/0.jpg)](https://www.youtube.com/watch?v=mVVZ-IUYYHQ)
 
 The code is not tidied up so it's more than a bit messy, apologies for this.
 
-Music by SketchyLogic.
-Graphics by Kenney.
+Music by *SketchyLogic*.
+Graphics by *Kenney*.
