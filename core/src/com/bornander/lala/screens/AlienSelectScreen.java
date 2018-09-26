@@ -384,7 +384,7 @@ public class AlienSelectScreen extends GameScreen {
 	
 	@Override
 	public void update(float delta) {
-		background.update(delta);
+		//background.update(delta);
 		stage.act(delta);
 	}
 	
