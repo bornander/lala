@@ -11,54 +11,54 @@ import java.util.Map;
 
 public class BlockAssets {
 	
-	private final Vector2[] shape_square = new Vector2[] {
+	private static final Vector2[] shape_square = new Vector2[] {
 			new Vector2(-0.5f, -0.5f),	
 			new Vector2( 0.5f, -0.5f),	
 			new Vector2( 0.5f,  0.5f),	
 			new Vector2(-0.5f,  0.5f)	
 		};
 	
-	private final Vector2[] shape_small_triangle_left = new Vector2[] {
+	private static final Vector2[] shape_small_triangle_left = new Vector2[] {
 			new Vector2(-0.5f, -0.5f),	
 			new Vector2( 0.5f, -0.5f),	
 			new Vector2(-0.5f,  0.5f)	
 		};
 	
-	private final Vector2[] shape_small_triangle_right = new Vector2[] {
+	private static final Vector2[] shape_small_triangle_right = new Vector2[] {
 			new Vector2(-0.5f, -0.5f),	
 			new Vector2( 0.5f, -0.5f),	
 			new Vector2( 0.5f,  0.5f)	
 		};
 	
 	
-	private final Vector2[] shape_pyramid =	new Vector2[] {
+	private static final Vector2[] shape_pyramid =	new Vector2[] {
 			new Vector2(-1.0f, -0.5f),	
 			new Vector2( 1.0f, -0.5f),	
 			new Vector2( 0.0f,  0.5f)
 		};
 	
-	private final Vector2[] shape_square_small_triangle_left = new Vector2[] {
+	private static final Vector2[] shape_square_small_triangle_left = new Vector2[] {
 			new Vector2(-0.5f, -1.0f),	
 			new Vector2( 0.5f, -1.0f),	
 			new Vector2( 0.5f,  0.0f),	
 			new Vector2(-0.5f,  1.0f)	
 		};
 	
-	private final Vector2[] shape_1x2 = new Vector2[] {
+	private static final Vector2[] shape_1x2 = new Vector2[] {
 			new Vector2(-0.5f, -1.0f),	
 			new Vector2( 0.5f, -1.0f),	
 			new Vector2( 0.5f,  1.0f),	
 			new Vector2(-0.5f,  1.0f)	
 		};
 
-	private final Vector2[] shape_2x1 = new Vector2[] {
+	private static final Vector2[] shape_2x1 = new Vector2[] {
 			new Vector2(-1.0f, -0.5f),	
 			new Vector2(-1.0f,  0.5f),	
 			new Vector2( 1.0f,  0.5f),	
 			new Vector2( 1.0f, -0.5f)	
 		};
 
-	private final Vector2[] shape_1x2_triangle_left = new Vector2[] {
+	private static final Vector2[] shape_1x2_triangle_left = new Vector2[] {
 			new Vector2(-0.5f, -1.5f),	
 			new Vector2( 0.5f, -1.5f),	
 			new Vector2( 0.5f,  0.5f),	

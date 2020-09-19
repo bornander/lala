@@ -6,27 +6,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AliensAssets {
-
-	private final AlienAssets blue;
-	private final AlienAssets beige;
-	private final AlienAssets green;
-	private final AlienAssets pink;
-	private final AlienAssets yellow;
-	
 	private final Map<String, AlienAssets> aliens = new HashMap<String, AlienAssets>();
 	
 	public AliensAssets(TextureAtlas atlas) {
-		beige = new AlienAssets(atlas, "alienBeige");
-		blue = new AlienAssets(atlas, "alienBlue");
-		green = new AlienAssets(atlas, "alienGreen");
-		pink = new AlienAssets(atlas, "alienPink");
-		yellow = new AlienAssets(atlas, "alienYellow");
-		
-		aliens.put("beige", beige);
-		aliens.put("blue", blue);
-		aliens.put("green", green);
-		aliens.put("pink", pink);
-		aliens.put("yellow", yellow);
+		aliens.put("beige", new AlienAssets(atlas, "alienBeige"));
+		aliens.put("blue", new AlienAssets(atlas, "alienBlue"));
+		aliens.put("green", new AlienAssets(atlas, "alienGreen"));
+		aliens.put("pink", new AlienAssets(atlas, "alienPink"));
+		aliens.put("yellow", new AlienAssets(atlas, "alienYellow"));
 	}
 	
 	public final AlienAssets getAlien(String name) {

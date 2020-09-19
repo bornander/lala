@@ -20,11 +20,10 @@ public class LevelInfo {
 	public boolean completed;
 	public boolean unlocked;
 	
-	public long completedAt = Long.MAX_VALUE;
+	public long completedAt;
 	
 	public String name; // TODO: Make me final!
-	
-	private String dataPath;
+
 	private String mapPath;
 	private String data;
 	
@@ -34,8 +33,8 @@ public class LevelInfo {
 		this.completed = completed;
 		this.unlocked = unlocked;
 		this.completedAt = completedAt;
-		
-		dataPath = String.format("chapters/%s/%d.data", chapter.id, id);
+
+		String dataPath = String.format("chapters/%s/%d.data", chapter.id, id);
 		mapPath = String.format("chapters/%s/%d.tmx", chapter.id, id);
 		// TODO: Should not try-catch here!
 		try {

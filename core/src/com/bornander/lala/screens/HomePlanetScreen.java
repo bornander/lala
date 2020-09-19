@@ -64,8 +64,7 @@ public class HomePlanetScreen extends GameScreen {
 	
 	private boolean dialogEnabled = true;
 	
-	private State state; 
-	private String landing;
+	private State state;
 	private DropOffShip ship = new DropOffShip();
 	private List<DancingAlien> dancingAliens = new ArrayList<DancingAlien>();
 	
@@ -194,7 +193,7 @@ public class HomePlanetScreen extends GameScreen {
 	private void buildLander(PlanetInfo planetInfo, float height) {
 		if (planetInfo.anyPending()) {
 			state = State.LANDING;
-			landing = planetInfo.getNextToLand();
+			String landing = planetInfo.getNextToLand();
 			Vector2 a = Temp.vector2.obtain();
 			Vector2 b = Temp.vector2.obtain();
 			Vector2 dropOffPosition = MapUtils.getRectanglePosition(map, "entities", "ship_dropoff", landing, a);

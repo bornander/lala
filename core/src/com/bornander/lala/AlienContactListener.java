@@ -90,21 +90,17 @@ public class AlienContactListener implements ContactListener {
 			}
 
 			if (isFall) {
+				Vector2 collisionPoint = Temp.vector2.obtain().set(manifold.getPoints()[0]);
+				Vector2 impactVector = Temp.vector2.obtain().set(collisionPoint).sub(alien.body.getWorldCenter()).nor();
 
-				if (noc > 0) {
+				Vector2 down = new Vector2(0, -1);
 
-					Vector2 collisionPoint = Temp.vector2.obtain().set(manifold.getPoints()[0]);
-					Vector2 impactVector = Temp.vector2.obtain().set(collisionPoint).sub(alien.body.getWorldCenter()).nor();
+				float angle = Math.abs(impactVector.angle(down));
 
-					Vector2 down = new Vector2(0, -1);
+				alien.badCollision(angle);
 
-					float angle = Math.abs(impactVector.angle(down));
-
-					alien.badCollision(angle);
-
-					Temp.vector2.free(impactVector);
-					Temp.vector2.free(collisionPoint);
-				}
+				Temp.vector2.free(impactVector);
+				Temp.vector2.free(collisionPoint);
 			}
 		}
 	}

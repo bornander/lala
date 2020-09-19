@@ -38,13 +38,8 @@ public class SAT {
 			minB = a.x;
 			maxB = a.y;
 		}
-		
-		if (maxA <= minB || minA >= maxB) {
-			return false;
-		}
-		else {
-			return true;
-		}
+
+		return !(maxA <= minB) && !(minA >= maxB);
 	}
 	
 	public static float getOverlapDepth(Vector2 a, Vector2 b) {
@@ -99,6 +94,7 @@ public class SAT {
 			p1.set(polygonA[i]);
 			p2.set(polygonA[(i + 1) %  polygonA.length]);
 			Vector2 edge = p1.sub(p2);
+			//noinspection SuspiciousNameCombination
 			normal.set(edge.y, -edge.x);
 			axes[a++].set(normal.nor());
 		}
@@ -107,6 +103,7 @@ public class SAT {
 			p1.set(polygonB[i]);
 			p2.set(polygonB[(i + 1) %  polygonB.length]);
 			Vector2 edge = p1.sub(p2);
+			//noinspection SuspiciousNameCombination
 			normal.set(edge.y, -edge.x);
 			axes[a++].set(normal.nor());
 		}

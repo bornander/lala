@@ -28,7 +28,7 @@ public class MusicAssets implements Disposable {
 	private final Music[] allMusic;
 	private final Map<String, Music> musicMap = new HashMap<String, Music>();
 
-	private final float FADE_DURATION = 1.0f;
+	private static final float FADE_DURATION = 1.0f;
 	private State state = State.STOPPED;
 	private float elapsed;
 	private Music current;

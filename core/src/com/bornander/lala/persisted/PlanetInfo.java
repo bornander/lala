@@ -19,9 +19,7 @@ public class PlanetInfo {
 	public void setAsPending(LevelInfo level) {
 		String id = String.format("%s.%d", level.chapter.id, level.id);
 		if (!landed.contains(id)) {
-			for(String lid : pending) {
-				landed.add(lid);
-			}
+			landed.addAll(pending);
 			pending.clear();
 			pending.add(id); 
 		}

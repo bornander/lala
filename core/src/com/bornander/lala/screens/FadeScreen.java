@@ -21,9 +21,7 @@ public class FadeScreen extends GameScreen {
 	
 	private final OrthographicCamera camera = new OrthographicCamera();
 	private final float fadeDuration = 2.0f;
-	
-	private final float vHeight = 1024;
-	private final float vWidth = vHeight / ((float)Gdx.graphics.getHeight() / (float)Gdx.graphics.getWidth());
+
 	private final Stage stage;
 	private final Label caption;
 	private final Color captionColor = new Color(Color.WHITE);
@@ -32,19 +30,17 @@ public class FadeScreen extends GameScreen {
 	
 	private float totalTime;
 	private boolean updateTo;
-	
-	private String message;
-	
-	
+
+
 	public FadeScreen(Game game, GameScreen from, GameScreen to, boolean updateTo, String message) {
 		super(game);
 		this.from = from;
 		this.to = to;
 		this.updateTo = updateTo;
-		this.message = message;
 		camera.setToOrtho(false, 64, 64);
 		
 		ScreenViewport viewport = new ScreenViewport();
+		float vHeight = 1024;
 		viewport.setUnitsPerPixel(vHeight / Gdx.graphics.getHeight());
 
 		stage = new Stage(viewport);
@@ -53,8 +49,9 @@ public class FadeScreen extends GameScreen {
 		caption = new Label(message, new LabelStyle(Assets.instance.fonts.dialog, Color.WHITE));
 		caption.setAlignment(Align.center);
 		stage.addActor(caption);
-		
-		caption.setPosition((vWidth - caption.getWidth())/2, vHeight *0.35f);		
+
+		float vWidth = vHeight / ((float) Gdx.graphics.getHeight() / (float) Gdx.graphics.getWidth());
+		caption.setPosition((vWidth - caption.getWidth())/2, vHeight *0.35f);
 	}
 	
 	public FadeScreen(Game game, GameScreen from, GameScreen to, String message) {

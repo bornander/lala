@@ -69,7 +69,6 @@ public class Level {
 
 	public final LevelInfo levelInfo;
 	public final LevelData levelData;
-	private final TiledMap map;
 	private final MapInfo mapInfo;
 	private final OrthogonalTiledMapRenderer mapRenderer;
 
@@ -89,7 +88,7 @@ public class Level {
 		levelInfo = info;
 		levelData = info.getData();
 		// TODO: Make this load asynchronous
-		map = levelData.map;
+		TiledMap map = levelData.map;
 		mapInfo = new MapInfo(map);
 
 		world = buildWorld(contactListener);
@@ -495,7 +494,6 @@ public class Level {
 				return block;
 			}
 		}
-		;
 
 		return null;
 	}

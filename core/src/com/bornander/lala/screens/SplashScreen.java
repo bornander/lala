@@ -16,10 +16,6 @@ import com.bornander.lala.TiledBackground;
 import com.bornander.lala.assets.TextAssets;
 
 public class SplashScreen extends GameScreen {
-	
-	
-	private final float vHeight = 1024;
-	private final float vWidth = vHeight / ((float)Gdx.graphics.getHeight() / (float)Gdx.graphics.getWidth());
 	private final Stage stage;
 	
 	private final TiledBackground background;
@@ -31,10 +27,12 @@ public class SplashScreen extends GameScreen {
 		super(game);
 		
 		ScreenViewport viewport = new ScreenViewport();
+		float vHeight = 1024;
 		viewport.setUnitsPerPixel(vHeight / Gdx.graphics.getHeight());
 
 		stage = new Stage(viewport);
-		
+
+		float vWidth = vHeight / ((float) Gdx.graphics.getHeight() / (float) Gdx.graphics.getWidth());
 		background = new TiledBackground(vWidth, Assets.instance.backgrounds.coloredGrass, stage);
 	
 		Label title = new Label("LALA", new LabelStyle(Assets.instance.fonts.menu_title, Color.WHITE));

@@ -33,40 +33,12 @@ public class SoundAssets implements Disposable {
 	private static final Random RND = new Random();
 	public static final long NO_SOUND = -1;
 
-	private final Sound step_dirt;
-	private final Sound step_grass;
-	private final Sound step_metal;
-	private final Sound step_snow;
-	private final Sound step_stone;
-	private final Sound step_wood;
-	private final Sound step_mushroom;
-	
 	private final Sound teleport_out;
 	private final Sound teleport_in;
 	
 	private final Sound ufo_fly;
 	private final Sound level_completed_first_time;
-	
-	private final Sound alien_speak_1;
-	private final Sound alien_speak_2;
-	private final Sound alien_speak_3;
-	private final Sound alien_speak_4;
-	private final Sound alien_speak_5;
-	private final Sound alien_speak_6;
-	private final Sound alien_speak_7;
-	private final Sound alien_speak_8;
-	private final Sound alien_speak_9;
-	private final Sound alien_speak_10;
-	
-	private final Sound alien_blocked_1;
-	private final Sound alien_hurt_1;
-	private final Sound alien_hurt_2;
-	
-	private final Sound mushroom_1;
-	private final Sound mushroom_2;
-	private final Sound mushroom_3;
-	private final Sound mushroom_4;
-	
+
 	private final Sound[] sounds;
 	private final Sound[] alienSpeak;
 	private final Sound[] alienBlocked;
@@ -75,6 +47,30 @@ public class SoundAssets implements Disposable {
 	private final Map<Material, Sound> materialSounds = new HashMap<Material, Sound>(); 
 	
 	public SoundAssets() {
+		Sound step_dirt;
+		Sound step_grass;
+		Sound step_metal;
+		Sound step_snow;
+		Sound step_stone;
+		Sound step_wood;
+		Sound step_mushroom;
+		Sound alien_speak_1;
+		Sound alien_speak_2;
+		Sound alien_speak_3;
+		Sound alien_speak_4;
+		Sound alien_speak_5;
+		Sound alien_speak_6;
+		Sound alien_speak_7;
+		Sound alien_speak_8;
+		Sound alien_speak_9;
+		Sound alien_speak_10;
+		Sound alien_blocked_1;
+		Sound alien_hurt_1;
+		Sound alien_hurt_2;
+		Sound mushroom_1;
+		Sound mushroom_2;
+		Sound mushroom_3;
+		Sound mushroom_4;
 		sounds = new Sound[] {
 				step_dirt = load("step_dirt.wav"),
 				step_grass = load("step_grass.wav"),
@@ -107,32 +103,32 @@ public class SoundAssets implements Disposable {
 		};
 		
 		alienSpeak = new Sound[] {
-			alien_speak_1,	
-			alien_speak_2,	
-			alien_speak_3,	
-			alien_speak_4,	
-			alien_speak_5,
-			alien_speak_6,
-			alien_speak_7,
-			alien_speak_8,
-			alien_speak_9,
-			alien_speak_10
+				alien_speak_1,
+				alien_speak_2,
+				alien_speak_3,
+				alien_speak_4,
+				alien_speak_5,
+				alien_speak_6,
+				alien_speak_7,
+				alien_speak_8,
+				alien_speak_9,
+				alien_speak_10
 		};
 		
 		alienBlocked = new Sound[] {
-			alien_blocked_1	
+				alien_blocked_1
 		};
 		
 		alienHurt = new Sound[] {
-			alien_hurt_1,
-			alien_hurt_2
+				alien_hurt_1,
+				alien_hurt_2
 		};
 		
 		mushroom = new Sound[] {
-			mushroom_1,
-			mushroom_2,
-			mushroom_3,
-			mushroom_4,
+				mushroom_1,
+				mushroom_2,
+				mushroom_3,
+				mushroom_4,
 		};
 		
 		materialSounds.put(Material.DIRT, step_dirt);

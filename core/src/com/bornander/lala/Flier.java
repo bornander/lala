@@ -28,7 +28,7 @@ public class Flier implements Npc {
 	
 	private float elapsed;
 	private float flyingLeft;
-	private float scale = 0.4f;
+	private float scale;
 	
 	private Alien alien;
 	

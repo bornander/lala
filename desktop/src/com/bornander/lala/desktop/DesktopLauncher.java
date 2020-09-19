@@ -132,8 +132,6 @@ public class DesktopLauncher {
 		config.title = "Lala";
 		config.width = (int)(w * f);
 		config.height = (int)(h * f);
-		//config.width = 512;//(int)(w * f);
-		//config.height = 250;//(int)(h * f);
 		config.resizable = false;
 		config.foregroundFPS = 60;
 		config.vSyncEnabled = false;

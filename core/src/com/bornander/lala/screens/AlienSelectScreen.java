@@ -62,8 +62,7 @@ public class AlienSelectScreen extends GameScreen {
 	private final TiledBackground background;
 	private final List<Button> levelButtons = new ArrayList<Button>(32);
 	private final Map<Button, Image> levelImages = new HashMap<Button, Image>(32);
-	
-	private final Button homeworldButton;
+
 	private final Label savedCount;
 
 	private final PlanetInfo planetInfo = PlanetInfo.load();
@@ -94,12 +93,9 @@ public class AlienSelectScreen extends GameScreen {
 
 		stage = new Stage(viewport);	
 		background = new TiledBackground(vWidth, Assets.instance.backgrounds.coloredDesert, stage);
-		
 
-		
-			
-		
-		homeworldButton =  Assets.instance.menu.getByMaterial(Material.PLANET);
+
+		Button homeworldButton = Assets.instance.menu.getByMaterial(Material.PLANET);
 		homeworldButton.setPosition(vWidth - homeworldButton.getWidth() * 1.1f, vHeight - homeworldButton.getHeight() * 1.1f);
 		stage.addActor(homeworldButton);
 		homeworldButton.addListener(new ClickListener() {

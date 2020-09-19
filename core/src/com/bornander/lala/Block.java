@@ -32,8 +32,7 @@ public class Block {
 	
 	public final BlockDef definition;
 	public final Transform transform = new Transform();
-	private Body body;
-	
+
 	public Block(int id, BlockDef definition) {
 		this.id = id;
 		this.definition = definition;
@@ -82,7 +81,7 @@ public class Block {
 		}
 		fixtureDefinition.restitution = 0.1f;
 
-		body = world.createBody(bodyDefinition);	
+		Body body = world.createBody(bodyDefinition);
 		body.setUserData(this);
 		body.setTransform(transform.position, transform.angle * MathUtils.degreesToRadians);
 

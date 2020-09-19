@@ -11,8 +11,7 @@ import java.util.List;
 import java.util.Random;
 
 public class LevelData {
-	
-	private final String path;
+
 	private final Block[] available;
 	
 	public final TiledMap map; 
@@ -24,9 +23,7 @@ public class LevelData {
 	public final float height;
 	
 	public final String alienName;
-	
-	private final Vector2 tileSize; 
-	
+
 	public final List<Terrain> terrain;
 	
 	
@@ -53,9 +50,8 @@ public class LevelData {
 	public LevelData(String alienName, String path, int[] unlocks_levels, boolean unlocks_next_chapter) {
 		
 		this.alienName = alienName;
-		
-		
-		this.path = path;
+
+
 		//this.available = available;
 		this.unlocks_levels = unlocks_levels;
 		this.unlocks_next_chapter = unlocks_next_chapter;
@@ -70,9 +66,9 @@ public class LevelData {
 
 		width = (float)properties.get("width", Integer.class);
 		height = (float)properties.get("height", Integer.class);
-		tileSize = new Vector2(
-				(float)properties.get("tilewidth", Integer.class),
-				(float)properties.get("tileheight", Integer.class));
+		Vector2 tileSize = new Vector2(
+				(float) properties.get("tilewidth", Integer.class),
+				(float) properties.get("tileheight", Integer.class));
 		
 		viewportWidth = height / aspectRatio;
 		

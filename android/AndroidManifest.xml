@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bornander.lala"
-    android:versionCode="10"
-    android:versionName="1.9" >
-    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="28" />
+    package="com.bornander.lala.android"
+    android:versionCode="20"
+    android:versionName="3.0" >
     <uses-permission android:name="android.permission.VIBRATE"/>
     <application
         android:allowBackup="true"
