@@ -16,7 +16,16 @@ android {
 
 
     signingConfigs {
+        /*
+            RELEASE_STORE_FILE, RELEASE_STORE_PASSWORD, RELEASE_KEY_ALIAS and RELEASE_KEY_PASSWORD are defined in my Global gradle.properties as
 
+            RELEASE_STORE_FILE=<path to my .jks file>
+            RELEASE_STORE_PASSWORD=<password of store>
+            RELEASE_KEY_ALIAS=<key alias>
+            RELEASE_KEY_PASSWORD=<key password>
+
+            they are secret and as such are not part of the checked in files.
+         */
         release {
             storeFile file(RELEASE_STORE_FILE)
             storePassword RELEASE_STORE_PASSWORD
