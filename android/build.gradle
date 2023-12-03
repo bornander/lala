@@ -1,6 +1,5 @@
 android {
-    buildToolsVersion "30.0.2"
-    compileSdkVersion 30
+    namespace "com.bornander.lala.android"
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -33,15 +32,19 @@ android {
             keyPassword RELEASE_KEY_PASSWORD
         }
     }
-
     packagingOptions {
-        exclude 'META-INF/robovm/ios/robovm.xml'
+        resources {
+            excludes += ['META-INF/robovm/ios/robovm.xml']
+        }
     }
+
     defaultConfig {
         applicationId "com.bornander.lala.android"
-        targetSdkVersion 30
-        versionCode 20
-        versionName "3.0"
+        minSdkVersion 14
+        targetSdkVersion 33
+        compileSdk 33
+        versionCode 23
+        versionName "3.3"
     }
     buildTypes {
         release {
@@ -50,6 +53,10 @@ android {
             signingConfig signingConfigs.release
 
         }
+    }
+    buildFeatures {
+        renderScript true
+        aidl true
     }
 }
 

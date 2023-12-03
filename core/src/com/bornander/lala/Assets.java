@@ -79,6 +79,7 @@ public class Assets implements Disposable {
 		music = new MusicAssets();
 		backgrounds = new BackgroundAssets();
 		texts = new TextAssets(LalaGame.TextResolver);
+		assetManager.finishLoading();
 		Log.info("Assets initialized");
 	}
 	

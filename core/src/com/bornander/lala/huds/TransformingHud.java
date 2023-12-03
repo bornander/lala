@@ -64,8 +64,10 @@ public class TransformingHud extends GameHud {
 			float fixed = value % 360;
 			if (fixed < 0)
 				fixed += 360;
-			
-			TransformingHud.this.picked.transform.angle = fixed;
+
+			if (TransformingHud.this.picked != null) {
+				TransformingHud.this.picked.transform.angle = fixed;
+			}
 		}
 	};
 	
@@ -700,7 +702,7 @@ public class TransformingHud extends GameHud {
 	@Override
 	public float getTrayTarget(float showing, float hidden) {
 		if (dragGrabbed) {
-			if (picked.isBelow(0.5f)) {
+			if (picked != null && picked.isBelow(0.5f)) {
 				return showing;
 			}
 			else {

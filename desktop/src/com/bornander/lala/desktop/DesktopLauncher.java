@@ -1,8 +1,8 @@
 package com.bornander.lala.desktop;
 
 import com.badlogic.gdx.Files.FileType;
-import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
-import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
+import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
 import com.bornander.lala.LalaGame;
 import com.bornander.libgdx.StringResolver;
 
@@ -123,20 +123,19 @@ public class DesktopLauncher {
 	}
 	
 	public static void main (String[] arg) {
-		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		float f = 0.50f;
 		
-		float w = LwjglApplicationConfiguration.getDesktopDisplayMode().width;
-		float h = LwjglApplicationConfiguration.getDesktopDisplayMode().height;
-		config.addIcon("graphics/app_icon.png", FileType.Internal);
-		config.title = "Lala";
-		config.width = (int)(w * f);
-		config.height = (int)(h * f);
-		config.resizable = false;
-		config.foregroundFPS = 60;
-		config.vSyncEnabled = false;
+		float w = Lwjgl3ApplicationConfiguration.getDisplayMode().width;
+		float h = Lwjgl3ApplicationConfiguration.getDisplayMode().height;
+		config.setWindowIcon(FileType.Internal, "graphics/app_icon.png");
+		config.setTitle("Lala");
+		config.setWindowedMode((int)(w * f), (int)(h * f));
+		config.setResizable(false);
+		config.setForegroundFPS(60);
+		config.useVsync(false);
 		LalaGame.TextResolver = new DesktopStringResolver();
 
-		new LwjglApplication(new LalaGame(), config);
+		new Lwjgl3Application(new LalaGame(), config);
 	}
 }
