@@ -105,8 +105,13 @@ public class LevelInfo {
 	
 	public LevelData getData() {
 		int[] unlocks_levels = getIntegerRow("unlocks_levels");
-		boolean unlocks_next_chapter = Boolean.parseBoolean(getRow("unlocks_next_chapter")[0]);
-		return new LevelData(chapter.id, mapPath, unlocks_levels, unlocks_next_chapter);
+		try {
+			boolean unlocks_next_chapter = Boolean.parseBoolean(getRow("unlocks_next_chapter")[0]);
+			return new LevelData(chapter.id, mapPath, unlocks_levels, unlocks_next_chapter);
+		}
+		catch (ArrayIndexOutOfBoundsException e) {
+			return new LevelData(chapter.id, mapPath, unlocks_levels, true);
+		}
 	}
 
 	public void save() {

@@ -5,7 +5,10 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.utils.GdxRuntimeException;
 import com.bornander.lala.Material;
+
+import java.util.Locale;
 
 public class MenuAssets {
 	private final Skin skin;
@@ -46,6 +49,11 @@ public class MenuAssets {
 	}
 	
 	public Button getByMaterial(Material material) {
-		return new Button(skin, String.format("type_%s", material.toString().toLowerCase()));
+		try {
+			return new Button(skin, String.format("type_%s", material.toString().toLowerCase(Locale.US)));
+		}
+		catch (GdxRuntimeException e) {
+			return new Button(skin, "type_dirt");
+		}
 	}
 }

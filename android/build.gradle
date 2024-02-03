@@ -41,9 +41,10 @@ android {
     defaultConfig {
         applicationId "com.bornander.lala.android"
         minSdkVersion 14
+        //noinspection EditedTargetSdkVersion
         targetSdkVersion 33
         compileSdk 33
-        versionCode 23
+        versionCode 33
         versionName "3.3"
     }
     buildTypes {

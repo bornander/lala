@@ -509,7 +509,7 @@ public class TransformingHud extends GameHud {
 		super.touchDragged(screenX, screenY, pointer);
 		if (!isTransforming) {
 			Vector2 temp = Temp.vector2.obtain().set(Temp.unproject(game.level.camera, screenX, screenY));
-			if (dragGrabbed)
+			if (dragGrabbed && picked != null)
 				picked.transform.position.set(temp);
 			else {
 				dragTouchDrag(screenX, screenY, game.level.camera);
