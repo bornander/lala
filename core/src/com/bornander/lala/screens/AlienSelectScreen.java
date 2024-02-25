@@ -17,6 +17,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Label.LabelStyle;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
+import com.badlogic.gdx.utils.GdxRuntimeException;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.bornander.lala.Assets;
 import com.bornander.lala.GameScreen;
@@ -27,6 +28,7 @@ import com.bornander.lala.persisted.ChapterInfo;
 import com.bornander.lala.persisted.LevelInfo;
 import com.bornander.lala.persisted.PlanetInfo;
 import com.bornander.libgdx.Collections;
+import com.bornander.libgdx.Log;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -242,11 +244,17 @@ public class AlienSelectScreen extends GameScreen {
 		
 		button.addListener(new ClickListener() {
 			public void clicked(InputEvent event, float x, float y) {
-				Level level = new Level(levelInfo); 				
-				// TODO: Change the constructor of GameplayScreen to only take AlientSelectScreen and level?
-				//AlienSelectScreen.this.game.setScreen(new GameplayScreen(AlienSelectScreen.this.game, AlienSelectScreen.this, level));
-				AlienSelectScreen.this.game.setScreen(
-						new FadeScreen(AlienSelectScreen.this.game, AlienSelectScreen.this, new GameplayScreen(AlienSelectScreen.this.game, AlienSelectScreen.this, level), levelInfo.toString()));
+				try {
+					Level level = new Level(levelInfo);
+
+					// TODO: Change the constructor of GameplayScreen to only take AlientSelectScreen and level?
+					//AlienSelectScreen.this.game.setScreen(new GameplayScreen(AlienSelectScreen.this.game, AlienSelectScreen.this, level));
+					AlienSelectScreen.this.game.setScreen(
+							new FadeScreen(AlienSelectScreen.this.game, AlienSelectScreen.this, new GameplayScreen(AlienSelectScreen.this.game, AlienSelectScreen.this, level), levelInfo.toString()));
+				}
+				catch (GdxRuntimeException ex) {
+					Log.error(ex, "Failed to load level %s", levelInfo);
+				}
 			}
 		});
 		
